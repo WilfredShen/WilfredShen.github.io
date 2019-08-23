@@ -6,12 +6,9 @@ kramdown:
   input:  GFM
   syntax_highlighter: rouge
 
-
 paginate: 10
 paginate_path: "page/:num"
 baseurl: ""
-
-
 
 defaults:
   -
@@ -23,14 +20,13 @@ defaults:
       styles : [highlight.css,gitment.css,post.css]
       scripts : [gitment.js, post.js]
 
-
-
 title: "Wilfred"
 email: WilfredShen@tom.com
 description: ""
 github:
   username: WilfredShen
   url: "https://github.com/WilfredShen"
+
 # swiftype:
 #   searchId: iXZyPokVfxFaBTvi64Y6
 # gitment:
@@ -40,4 +36,3 @@ github:
 
 url: "https://WilfredShen.github.io"
 imgrepo: "https://WilfredShen.github.io/static/img"
-
