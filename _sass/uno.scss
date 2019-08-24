@@ -1732,9 +1732,9 @@ input[type="tel"]:-ms-input-placeholder {
 
 	@keyframes go-up {
 		0% { opacity: 0; transform: translateY(1000px); }
-		60% { opacity: 0; transform: translateY(-30px); }
-		80% { opacity: 0; transform: translateY(10px); }
+		60% { opacity: 1; transform: translateY(-30px); }
+		80% { transform: translateY(10px); }
 		100% { transform: translateY(0); }
 	}
 
-	.go-up { transition: transform 1s; transition-timing-function: ease-out; animation-name: go-up; }
+	.go-up { transition: transform 1s ease-out; animation-name: go-up; }
