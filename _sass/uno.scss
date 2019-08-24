@@ -1711,6 +1711,7 @@ input[type="tel"]:-ms-input-placeholder {
 			margin: 0;
 			width: 100%;
 			display: block; }
+			.side-navbar li.backToTop { cursor: pointer; }
 			.side-navbar a {
 				display: inline-block;
 				width: 100%;
@@ -1742,3 +1743,4 @@ input[type="tel"]:-ms-input-placeholder {
 	}
 
 	.go-up { transition: transform 1s ease-out, opacity 1s linear; animation-name: go-up; }
+
