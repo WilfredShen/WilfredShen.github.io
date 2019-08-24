@@ -5,6 +5,9 @@ tags: Memory Thread Thread-Lock
 categories: tech-Thread
 ---
 
+* TOC
+{:toc}
+
 大家在平常学习的过程中可能会接触到线程安全这个词，知道线程可能不安全，却不清楚是怎么回事，这里就给大家简单介绍一下，有错误请下方评论指正。
 
 ## 内存
@@ -17,16 +20,20 @@ categories: tech-Thread
 ## 调用对象
 
 知道了内存的存储规则，我们还要知道对象在被调用时会发生什么。
+
 ```java
 public class Test {
 	private int a = 0;
 	public void add() { a++; }
 }
 ```
+
 以Java为例，上面的代码可以看出，每当调用一次Test对象的add方法，a就会自增1。那么它究竟是怎么实现自增的呢？
 
 请看下图：
+
 ![thread-safe][thread-safe]
+
 根据上图示意，我们可以很清楚的知道，程序再调用test的add方法时，先复制了一份test到栈内存中，在栈内存中完成自增操作，之后再赋值回堆内存中的test对象。
 
 相信聪明的你们已经发现问题所在了。

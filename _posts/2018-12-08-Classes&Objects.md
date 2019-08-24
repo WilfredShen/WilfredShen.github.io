@@ -5,7 +5,6 @@ tags: Java
 categories: tech-Java
 ---
 
-
 * TOC 
 {:toc}
 
@@ -53,8 +52,10 @@ categories: tech-Java
 ```
 
 访问修饰符在类或抽象类中有四种：
-
-public、protected、default（可以省略）、private
+- public
+- protected
+- default（可以省略）
+- private
 
 ## 2.构造方法
 
@@ -87,6 +88,7 @@ public、protected、default（可以省略）、private
 重载的方法在调用时，会根据给定的参数匹配相应的方法，不需要特别声明。
 
 例：求出两个值之间的较大值：
+
 ```java
 //不重载
 public int max_int(int a, int b) {return a > b ? a : b;}
@@ -96,6 +98,7 @@ public float max_float(float a, float b) {return a > b ? a : b;}
 public int max(int a, int b) {return a > b ? a : b;}
 public float max(float a, float b) {return a > b ? a : b;}
 ```
+
 可以看出第一种方法在调用时要先区别传递的参数的类型，再选择相应的函数，会给工作带来一定的额外负担，而第二种方法你只需要保证max方法支持某种数据类型的比较即可。
 
 # 对象：我要调用我自己的时候怎么办？
@@ -110,6 +113,7 @@ this的使用方法：
 - this(参数值,……)&emsp;调用构造方法
 
 其中第三种方法出现在构造函数中：
+
 ```java
 public class Student {
 	public String name = null;
