@@ -1706,11 +1706,11 @@ input[type="tel"]:-ms-input-placeholder {
 			margin: 0;
 			text-align: left; }
 		.side-navbar li {
-			display: inline-block;
+			display: block;
 			padding: 0 30px 0 6px;
 			margin: 0;
 			width: 100%;
-			display: block; }
+			color: #e6e6e6; }
 			.side-navbar li.backToTop { cursor: pointer; }
 			.side-navbar a {
 				display: inline-block;
