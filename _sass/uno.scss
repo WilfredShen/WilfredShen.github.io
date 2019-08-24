@@ -1685,7 +1685,7 @@ input[type="tel"]:-ms-input-placeholder {
 
 	.side-navbar {
 		background-color: #333333;
-		display: block;
+		display: none;
 		position: fixed;
 		opacity: 0.8;
 		right: 0;
@@ -1710,3 +1710,15 @@ input[type="tel"]:-ms-input-placeholder {
 			display: block; }
 			.side-navbar a {
 				color: #e6e6e6; }
+		.side-btn {
+			display: block;
+			position: fixed;
+			opacity: 0.8;
+			right: 0;
+			bottom: 0;
+			height: 0;
+			width: 0;
+			border-color: #333333 transparent transparent #333333;
+			border-width: 44px 0 0 60px;
+			border-style: solid;
+		}
