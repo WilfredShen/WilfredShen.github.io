@@ -53,12 +53,12 @@ $(document).ready(function () {
   $('.backToTop').click(smoothscroll)
 
   function smoothscroll(){
+    if($('.side-nav-btn').hasClass('side-nav-btn-bar')) clickSideNavbar()
     var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
     if (currentScroll > 0) {
          window.requestAnimationFrame(smoothscroll)
          window.scrollTo (0,currentScroll - (currentScroll/5))
     } else {
-      clickSideNavbar()
     }
   }
 
