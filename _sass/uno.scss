@@ -1737,4 +1737,4 @@ input[type="tel"]:-ms-input-placeholder {
 		100% { transform: translateY(0); }
 	}
 
-	.go-up { transition: transform 1s ease-out; animation-name: go-up; }
+	.go-up { transition: transform 1s ease-out; transition: opacity 1s ease-out; animation-name: go-up; }
