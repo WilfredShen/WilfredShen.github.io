@@ -1,11 +1,11 @@
 <footer class="footer">
   <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
-  <ul class="side-navbar">
+  <ul class="side-navbar animated">
       {% for p in site.pages %}
       {% if p.isNavItem %}<li><a href="{{ p.url | prepend: site.baseurl }}"><span class="octicon {{ p.icon }}"></span>&nbsp;&nbsp;{{ p.title }}</a></li>{% endif %}
       {% endfor %}
   </ul>
-  <i class="side-nav-btn side-nav-btn-corner"></i>
+  <i class="side-nav-btn side-nav-btn-corner animated"></i>
 </footer>
 
 <script type="text/javascript" src="{{ site.srcurl }}/js/jquery-3.4.1.min.js"></script>
