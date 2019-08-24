@@ -28,6 +28,13 @@
 }
 .mega-octicon { font-size: 32px; }
 
+.octicon::before {
+  display: inline-block;
+  width: 30px;
+  padding: 0;
+  margin: 0;
+}
+
 .octicon-alert:before { content: '\f02d'} /*  */
 .octicon-alignment-align:before { content: '\f08a'} /*  */
 .octicon-alignment-aligned-to:before { content: '\f08e'} /*  */
