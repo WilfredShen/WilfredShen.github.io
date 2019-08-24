@@ -1736,11 +1736,5 @@ input[type="tel"]:-ms-input-placeholder {
 		100% { transform: translateY(0); }
 	}
 
-	@keyframes go-left {
-		0% { opacity: 0; transform: translateX(1000px); }
-		50% { transform: translateX(0); }
-		100% { transform: translateX(0); }
-	}
-
-	.go-up { transition-timing-function: ease-out; animation-name: go-up; }
-	.go-left { transition-timing-function: ease-out; animation-name: go-left; }
+	.go-up { transition: transform 1s; transition-timing-function: ease-out; animation-name: go-up; }
+	.go-left { transition: width 1s; transition-timing-function: ease-out; }
