@@ -3,6 +3,7 @@ layout: post
 title: Java 类的继承
 tags: Java
 categories: tech-Java
+excerpt: Why not have a try?
 ---
 
 * TOC

@@ -3,6 +3,7 @@ layout: post
 title: 数据的二进制表示&数据类型转换
 tags: Binary
 categories: tech-Binary
+excerpt: Why not have a try?
 ---
 
 * TOC

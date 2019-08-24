@@ -3,6 +3,7 @@ layout: post
 title: Java 五子棋-人人对战
 tags: Java
 categories: tech-Java
+excerpt: Why not have a try?
 ---
 
 * TOC

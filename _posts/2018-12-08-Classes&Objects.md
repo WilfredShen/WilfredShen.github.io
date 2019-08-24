@@ -3,6 +3,7 @@ layout: post
 title: 类和对象
 tags: Java
 categories: tech-Java
+excerpt: Why not have a try?
 ---
 
 * TOC

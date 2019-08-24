@@ -3,6 +3,7 @@ layout: post
 title: Java 接口&监听
 tags: Java
 categories: tech-Java
+excerpt: Why not have a try?
 ---
 
 * TOC
