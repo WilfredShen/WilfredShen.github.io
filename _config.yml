@@ -1,38 +1,43 @@
-permalink: /blog/:year/:month/:day/:title
+# Site settings
+title: Jekyll-Uno
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+url: 'http://joshgerdes.com/jekyll-uno'
+baseurl: '/jekyll-uno'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  input:  GFM
-  syntax_highlighter: rouge
-
-paginate: 10
-paginate_path: "page/:num"
-baseurl: ""
+author:
+  name: 'Josh Gerdes'
+  email: josh@joshgerdes.com
+  twitter_username: joshgerdes
+  facebook_username: joshgerdes
+  github_username:  joshgerdes
+  linkedin_username:  joshgerdes
 
 defaults:
   -
     scope:
-      path: ""
-      type: posts
+      path: ''
+      type: 'posts'
     values:
-      layout: post
-      styles : [highlight.css,gitment.css,post.css]
-      scripts : [gitment.js, post.js]
+        layout: 'post'
 
-title: "Wilfred"
-email: WilfredShen@tom.com
-description: ""
-github:
-  username: WilfredShen
-  url: "https://github.com/WilfredShen"
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
 
-# swiftype:
-#   searchId: iXZyPokVfxFaBTvi64Y6
-# gitment:
-#     repo: blog
-#     client_id: a6fb73b3e790e234bab8
-#     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+sass:
+    sass_dir: _sass
+    style: compressed
 
-url: "https://WilfredShen.cn"
-imgrepo: "https://WilfredShen.cn/static/img"
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

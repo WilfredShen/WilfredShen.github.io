@@ -1,34 +1,45 @@
-##[点我查看中文说明](https://github.com/dubuyuye/blog/blob/gh-pages/README_zh_CN.md)
+# jekyll-uno
 
-# Blog Address
+Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
-<https://bit-ranger.github.io/blog/>
+> :warning:
+  This theme requires ruby and rubygems installed
 
+### Features
 
-# Must Modify
+* Clean layout
+* Resposive layout
+* Pagination
+* Syntax highlighting
+* Social links
+* Tags listing page
+* Categories listing page
+* Google Analytics integration
+* Disqus integration
 
-## 1.swiftype
+---
 
-This service provides the on-site search function.
+### Install and Test
 
-Service address： <https://swiftype.com/>.
+1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
+2. Enter the folder: `cd jekyll-uno/`
+3. If you don't have bundler installed: `gem install bundler`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-After the setup is complete， you need to modify the `swiftype.searchId` in `_config.yml`.
+Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
 
-In your swiftype engine, go to `Setup and integration` -> `Install Search`, you could find the `swiftype.searchId`.
+---
 
-```html
-<script type="text/javascript">
-...
-...
-  _st('install','swiftype.searchId','2.0.0');
-</script>
-```
+### Demo and Download
 
-## 2.gitment
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
 
-This service provides the comment function.
+![jekyll-uno - free Jekyll theme](/screenshot.png)
 
-Service address： <https://github.com/imsun/gitment>.
+---
 
-After the setup is complete， you need to modify the `gitment`  in `_config.yml`.
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
