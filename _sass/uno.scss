@@ -1364,6 +1364,8 @@ hr {
 	padding-left: 12px;
 	padding-right: 12px;
 	color: #FFF; }
+	.btn-mobile-menu__icon:hover, .btn-mobile-close__icon:hover {
+		cursor: pointer; }
 
 nav {
 	display: inline-block;
