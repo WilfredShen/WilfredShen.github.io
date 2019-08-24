@@ -38,7 +38,7 @@ kramdown:
   # use Github Flavored Markdown
   input: GFM
   # do not replace newlines by <br>s
-  hard_wrap: false
+  syntax_highlighter: rouge
 
 plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
