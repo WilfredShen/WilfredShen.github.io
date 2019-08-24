@@ -3,6 +3,7 @@ layout: post
 title: 内存与线程
 tags: Memory Thread Thread-Lock
 categories: tech-Thread
+excerpt: Why not have a try?
 ---
 
 * TOC
