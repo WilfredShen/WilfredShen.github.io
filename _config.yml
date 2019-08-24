@@ -1,9 +1,9 @@
 # Site settings
 title: Wilfred
 description: 'There is nothing.'
-url: 'https://WilfredShen.cn/'
+url: 'https://WilfredShen.cn'
 baseurl: ''
-srcurl: 'static'
+srcurl: '/static'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
