@@ -6,10 +6,7 @@ sitemap:
 
 $(document).ready(function () {
   $('a.blog-button').click(function (e) {
-    if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
-      $('.content-wrapper').attr('style', 'display: block')
-      return
-    }
+    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
@@ -23,10 +20,12 @@ $(document).ready(function () {
 
   if (window.location.hash && window.location.hash == '#blog') {
     $('.panel-cover').addClass('panel-cover--collapsed')
+    $('.content-wrapper').attr('style', 'display: block')
   }
 
   if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
+    $('.content-wrapper').attr('style', 'display: block')
   }
 
   $('.btn-mobile-menu').click(function () {
