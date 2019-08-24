@@ -4,6 +4,7 @@ description: 'There is nothing.'
 url: 'https://WilfredShen.cn'
 baseurl: ''
 srcurl: '/static'
+imgrepo: 'https://WilfredShen.cn/static/images'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
