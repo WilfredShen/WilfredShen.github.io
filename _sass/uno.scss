@@ -1690,7 +1690,8 @@ input[type="tel"]:-ms-input-placeholder {
 		opacity: 0.8;
 		right: 0;
 		bottom: 0;
-		padding-top: 36px;
+		padding-top: 8px;
+		padding-bottom: 36px;
 		font-size: 34px;
 		max-width: 360px;
 		width: fit-content;
@@ -1702,6 +1703,7 @@ input[type="tel"]:-ms-input-placeholder {
 		}
 		.side-navbar li {
 			color: #e6e6e6;
-			padding: 12px 20px;
+			padding: 6px 30px 10px 12px;
+			margin: 0;
 			display: block;
 		}
