@@ -51,6 +51,6 @@ public class Test {
 
 **Lock**则是Java库中的一个类，因为**synchronized**功能简单粗暴，有时会造成许多不便，所以使用**Lock**是更好的选择。当然有一点需要注意，**synchronized**关键字释放锁是自动进行的，而**Lock**则需要手动释放。
 
-更详细的知识此处就不介绍了，大家有兴趣可以自己深入学习哦。
+更详细的知识此处就不介绍了，大家有兴趣可以自己深入学习。
 
 [thread-safe]: {{"/thread-safe.png" | prepend: site.imgrepo }}
