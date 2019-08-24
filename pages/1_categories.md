@@ -1,7 +1,7 @@
 ---
 layout: categories
-title: Category
-permalink: /category/
+title: Categories
+permalink: /categories/
 icon: octicon-list-unordered
 robots: noindex
 ---
