@@ -21,12 +21,12 @@ $(document).ready(function () {
   $('.side-nav-btn').click(clickSideNavbar)
 
   function clickSideNavbar () {
-    if($(this).hasClass('side-nav-btn-corner')) {
+    if($('.side-nav-btn').hasClass('side-nav-btn-corner')) {
       $('.side-navbar').attr('style', 'display: block')
-    } else if ($(this).hasClass('side-nav-btn-bar')) {
+    } else if ($('.side-nav-btn').hasClass('side-nav-btn-bar')) {
       $('.side-navbar').attr('style', 'display: none')
     }
-    $(this).toggleClass('side-nav-btn-bar side-nav-btn-corner')
+    $('.side-nav-btn').toggleClass('side-nav-btn-bar side-nav-btn-corner')
     $('.side-navbar').toggleClass('animated go-up')
   }
 
