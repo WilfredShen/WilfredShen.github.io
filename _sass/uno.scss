@@ -1670,7 +1670,12 @@ input[type="tel"]:-ms-input-placeholder {
 
 	.navigation__item {
 		width: 100%;
-		margin: 0 0 .4em 0; } }
+		margin: 0 0 .4em 0; }
+
+	.side-navbar {
+		width: 100%; }
+		
+	}
 @media all and (max-width: 340px) {
 	.panel-main__inner {
 		padding: 0 5%; }
