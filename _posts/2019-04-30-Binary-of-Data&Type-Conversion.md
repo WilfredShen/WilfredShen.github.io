@@ -5,7 +5,7 @@ tags: Binary
 categories: tech-Binary
 ---
 
-* TOC 
+* TOC
 {:toc}
 
 # 数据的二进制表示

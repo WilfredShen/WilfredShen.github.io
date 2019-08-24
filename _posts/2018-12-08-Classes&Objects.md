@@ -5,7 +5,7 @@ tags: Java
 categories: tech-Java
 ---
 
-* TOC 
+* TOC
 {:toc}
 
 # 一、什么是对象？

@@ -5,7 +5,7 @@ tags: Java
 categories: tech-Java
 ---
 
-* TOC 
+* TOC
 {:toc}
 
 # Java中接口存在的目的

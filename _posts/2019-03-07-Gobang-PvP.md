@@ -5,7 +5,7 @@ tags: Java
 categories: tech-Java
 ---
 
-* TOC 
+* TOC
 {:toc}
 
 五子棋是国内受到普遍欢迎的一款游戏，规则简单，趣味不俗。作为一名程序员，自然也希望将它移植到电脑上。
