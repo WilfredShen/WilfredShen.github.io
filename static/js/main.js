@@ -19,11 +19,10 @@ $(document).ready(function () {
   })
 
   $('.side-nav-btn').click(function (e) {
+    $(this).toggleClass('side-nav-btn-bar side-nav-btn-corner')
     if($(this).hasClass('side-nav-btn-corner')) {
-      $(this).toggleClass('side-nav-btn side-nav-btn-bar')
       $('.side-navbar').attr('style', 'display: block')
     } else if ($(this).hasClass('side-nav-btn-bar')) {
-      $(this).toggleClass('side-nav-btn side-nav-btn-corner')
       $('.side-navbar').attr('style', 'display: none')
     }
   })
