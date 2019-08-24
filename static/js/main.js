@@ -24,8 +24,7 @@ $(document).ready(function () {
     } else if ($(this).hasClass('side-nav-btn-bar')) {
       $('.side-navbar').attr('style', 'display: none')
     }
-    $(this).toggleClass('side-nav-btn-bar side-nav-btn-corner go-left')
-    $('.side-navbar').toggleClass('go-up')
+    $(this).toggleClass('side-nav-btn-bar side-nav-btn-corner animated go-left')
   })
 
   if (window.location.hash && window.location.hash == '#blog') {
