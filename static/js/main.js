@@ -6,7 +6,10 @@ sitemap:
 
 $(document).ready(function () {
   $('a.blog-button').click(function (e) {
-    if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
+    if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
+      $('.content-wrapper').attr('style', 'display: block')
+      return
+    }
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed')
