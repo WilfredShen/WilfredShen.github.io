@@ -15,6 +15,7 @@ $(document).ready(function () {
       $('.panel-cover').css('max-width', currentWidth)
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
     }
+    $('.content-wrapper').attr('display', 'block')
   })
 
   if (window.location.hash && window.location.hash == '#blog') {
