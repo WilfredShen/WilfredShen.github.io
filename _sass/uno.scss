@@ -1684,6 +1684,7 @@ input[type="tel"]:-ms-input-placeholder {
 		margin-bottom: .4em; } }
 
 	.side-navbar {
+		background-color: #666666;
 		display: block;
 		position: fixed;
 		right: 0;
@@ -1691,5 +1692,5 @@ input[type="tel"]:-ms-input-placeholder {
 		width: 200px;
 		height: 600px; }
 		.side-navbar li {
-			display: inline-block;
+			display: block;
 		}
