@@ -2,7 +2,8 @@
 title: Wilfred Shen
 description: 'There is nothing.'
 url: 'https://WilfredShen.cn/'
-baseurl: 'static'
+baseurl: ''
+srcurl: 'static'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
