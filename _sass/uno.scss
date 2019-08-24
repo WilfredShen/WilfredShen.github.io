@@ -1698,10 +1698,8 @@ input[type="tel"]:-ms-input-placeholder {
 		padding-bottom: 48px;
 		font-size: 34px;
 		font-family: "Roboto Slab", serif;
-		max-width: 480px;
-		min-width: 300px;
 		margin: 0;
-		width: fit-content;
+		width: 300px;
 		height: fit-content; }
 		.side-navbar ul {
 			display: block;
@@ -1718,10 +1716,16 @@ input[type="tel"]:-ms-input-placeholder {
 			position: fixed;
 			opacity: 0.8;
 			right: 0;
-			bottom: 0;
+			bottom: 0; }
+			.side-nav-btn:hover {
+				cursor: pointer; }
+		.side-nav-btn-corner {
 			height: 0;
 			width: 0;
 			border-color: transparent #333333 #333333 transparent;
 			border-width: 22px 30px;
-			border-style: solid;
-		}
+			border-style: solid; }
+		.side-nav-btn-bar {
+			background-color: #333333;
+			height: 44px;
+			width: 300px; }

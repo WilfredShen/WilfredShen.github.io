@@ -18,6 +18,16 @@ $(document).ready(function () {
     $('.content-wrapper').attr('style', 'display: block')
   })
 
+  $('.side-nav-btn').click(function (e) {
+    if($(this).hasClass('.side-nav-btn-corner')) {
+      $(this).toggleClass('side-nav-btn side-nav-btn-bar')
+      $('.side-navbar').attr('style', 'display: block')
+    } else if ($(this).hasClass('.side-nav-btn-bar')) {
+      $(this).toggleClass('side-nav-btn side-nav-btn-corner')
+      $('.side-navbar').attr('style', 'display: none')
+    }
+  })
+
   if (window.location.hash && window.location.hash == '#blog') {
     $('.panel-cover').addClass('panel-cover--collapsed')
     $('.content-wrapper').attr('style', 'display: block')
