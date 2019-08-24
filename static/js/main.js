@@ -5,7 +5,7 @@ sitemap:
 ---
 
 $(document).ready(function () {
-  $('a.blog-button').click(function (e) {
+  $('a.blog-button').click(function () {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
@@ -18,7 +18,9 @@ $(document).ready(function () {
     $('.content-wrapper').attr('style', 'display: block')
   })
 
-  $('.side-nav-btn').click(function (e) {
+  $('.side-nav-btn').click(clickSideNavbar)
+
+  function clickSideNavbar () {
     if($(this).hasClass('side-nav-btn-corner')) {
       $('.side-navbar').attr('style', 'display: block')
     } else if ($(this).hasClass('side-nav-btn-bar')) {
@@ -26,7 +28,7 @@ $(document).ready(function () {
     }
     $(this).toggleClass('side-nav-btn-bar side-nav-btn-corner')
     $('.side-navbar').toggleClass('animated go-up')
-  })
+  }
 
   if (window.location.hash && window.location.hash == '#blog') {
     $('.panel-cover').addClass('panel-cover--collapsed')
@@ -53,8 +55,10 @@ $(document).ready(function () {
   function smoothscroll(){
     var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
     if (currentScroll > 0) {
-         window.requestAnimationFrame(smoothscroll);
-         window.scrollTo (0,currentScroll - (currentScroll/5));
+         window.requestAnimationFrame(smoothscroll)
+         window.scrollTo (0,currentScroll - (currentScroll/5))
+    } else {
+      clickSideNavbar()
     }
   }
 
