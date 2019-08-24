@@ -11,10 +11,10 @@ imgrepo: 'https://WilfredShen.cn/static/images'
 author:
   name: 'Wilfred Shen'
   email: WilfredShen@tom.com
-  twitter_username: WilfredShen
-  facebook_username: WilfredShen
+  # twitter_username: WilfredShen
+  # facebook_username: WilfredShen
   github_username:  WilfredShen
-  linkedin_username:  WilfredShen
+  # linkedin_username:  WilfredShen
 
 defaults:
   -
