@@ -1718,7 +1718,7 @@ input[type="tel"]:-ms-input-placeholder {
 			bottom: 0;
 			height: 0;
 			width: 0;
-			border-color: #333333 transparent transparent #333333;
-			border-width: 44px 60px;
+			border-color: transparent #333333 #333333 transparent;
+			border-width: 22px 30px;
 			border-style: solid;
 		}
