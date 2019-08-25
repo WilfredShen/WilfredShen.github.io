@@ -320,45 +320,37 @@ pre.highlight code,
   -ms-transform: rotate(315deg);
   transform: rotate(315deg); }
 
-.navigation__item div {
-  padding: 10px 20px;
-  border: 1px solid #e25440;
-  border-radius: 20px;
-  font-size: .9em;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-shadow: none;
-  color: #e25440;
-  -webkit-font-smoothing: antialiased; }
-  .btn:hover, .navigation__item div:hover {
-    color: #b9301c;
-    border-color: #b9301c; }
-
-.navigation__item div {
-  cursor: pointer;
-  display: block;
-  position: relative;
-  border-color: #FFF;
-  color: #FFF;
-  opacity: .8; }
-  .navigation__item div:hover {
+.navigation-icons {
+  font-size: 1.7em;
+  line-height: 1.7em;
+  border-radius: 1em; }
+  .navigation-icons div {
+    display: inline-block;
+    position: relative;
+    padding: 0.3em;
+    border: 1px solid #FFF;
+    font-weight: bold;
+    cursor: pointer;
     color: #FFF;
-    border-color: #FFF;
-    opacity: 1; }
+    opacity: .8;
+    -webkit-font-smoothing: antialiased; }
+    .navigation-icons div:hover {
+      color: #FFF;
+      border-color: #FFF;
+      opacity: 1; }
 
 .navigation--social div {
   cursor: pointer;
-  padding: 6px 8px 6px 9px; }
-  .navigation--social div .icon {
-    display: block;
-    font-size: 1.7em; }
+  padding: 6px 8px 6px 8px; }
 
 @media all and (max-width: 340px) {
-  .navigation__item div {
+  .navigation-icons div {
     display: block;
     margin-bottom: .4em; } }
 
 .fa-17 {
   font-size: 1.7em;
-  line-height: 1.7em;
-}
+  line-height: 1.7em; }
+
+.btn-mobile-menu__icon {
+  line-height: 43px; }
