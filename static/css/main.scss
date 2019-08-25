@@ -97,11 +97,14 @@ pre.highlight code,
     .side-nav-btn:hover {
       cursor: pointer; }
   .side-nav-btn-corner {
-    background-color: transparent;
-    height: 44px;
+    text-align: right;
     width: 44px;
-    text-align: center;
-    line-height: 44px; }
+    height: 44px;
+    line-height: 44px; 
+    display: block;}
+    .side-nav-btn-corner span {
+      width: 100%;
+      height: 100%; }
   .side-nav-btn-bar {
     z-index: 99999;
     height: 44px;
