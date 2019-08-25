@@ -337,11 +337,17 @@ pre.highlight code,
   -webkit-font-smoothing: antialiased; }
     .navigation-icons:hover { opacity: 1; }
 
+.blogs-btn {
+  height: 2em;
+  line-height: 2em;
+  border-radius: 1em;
+}
+
 @media all and (max-width: 340px) {
-  .navigation-icons {
+  .navigation__item {
     display: block;
     margin-bottom: .4em; } }
 
-.btn-mobile-menu__icon {
+.btn-mobile-menu__icon::before {
   font-size: 43px;
   line-height: 43px; }
