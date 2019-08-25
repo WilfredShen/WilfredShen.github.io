@@ -149,7 +149,7 @@ pre.highlight code,
   100% { opacity: 0.8; transform: translateY(0); }
 }
 
-@-webkit-keyframes cog-rotate {
+@-webkit-keyframes fade-in {
   0% {
     opacity: 1;
     -webkit-transform: rotate(0deg);
@@ -160,7 +160,7 @@ pre.highlight code,
     transform: rotate(359deg); }
 }
 
-@-moz-keyframes cog-rotate {
+@-moz-keyframes fade-in {
   0% {
     opacity: 1;
     -webkit-transform: rotate(0deg);
@@ -171,7 +171,7 @@ pre.highlight code,
     transform: rotate(359deg); }
 }
 
-@-o-keyframes cog-rotate {
+@-o-keyframes fade-in {
   0% {
     opacity: 1;
     -webkit-transform: rotate(0deg);
@@ -182,7 +182,7 @@ pre.highlight code,
     transform: rotate(359deg); }
 }
 
-@-webkit-keyframes cog-rotate {
+@keyframes fade-in {
   0% {
     opacity: 1;
     -webkit-transform: rotate(0deg);
@@ -193,35 +193,46 @@ pre.highlight code,
     transform: rotate(359deg); }
 }
 
-@-moz-keyframes cog-rotate {
+@-webkit-keyframes fade-out {
   0% {
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); }
 }
 
-@-o-keyframes cog-rotate {
+@-moz-keyframes fade-out {
   0% {
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
-    opacity: 0;
+    opacity: 1;
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); }
 }
 
-@keyframes cog-rotate {
+@-o-keyframes fade-out {
   0% {
-    opacity: 1;
+    opacity: 0;
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg); }
   100% {
+    opacity: 1;
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); }
+}
+
+@keyframes fade-out {
+  0% {
     opacity: 0;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    opacity: 1;
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); }
 }
@@ -230,10 +241,15 @@ pre.highlight code,
   -webkit-animation: go-up 1s ease-out;
   animation: go-up 1s ease-out; }
 
-.cog-rotate {
+.fade-in {
   opacity: 0;
-  -webkit-animation: cog-rotate 1s linear;
-  animation: cog-rotate 1s linear; }
+  -webkit-animation: fade-in 1s linear;
+  animation: fade-in 1s linear; }
+
+.fade-out {
+  opacity: 1;
+  -webkit-animation: fade-out 1s linear;
+  animation: fade-out 1s linear; }
 
 @media all and (max-width: 960px) {
   .side-navbar {

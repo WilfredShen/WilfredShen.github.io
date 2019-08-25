@@ -28,7 +28,7 @@ $(document).ready(function () {
     }
     $('.side-nav-btn').toggleClass('side-nav-btn-bar side-nav-btn-corner')
     $('.side-navbar').toggleClass('animated go-up')
-    $('.side-nav-btn').children('div').toggleClass('cog-rotate')
+    $('.side-nav-btn').children('div').toggleClass('fade-in fade-out')
   }
 
   if (window.location.hash && window.location.hash == '#blog') {
