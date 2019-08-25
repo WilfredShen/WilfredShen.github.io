@@ -1,16 +1,3 @@
-<!-- {% if paginator.previous_page %}
-  {% if paginator.previous_page == 1 %}
-    <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}/#blog" title="Previous Page"><span class="octicon octicon-chevron-left"></span></a>
-  {% else %}
-    <a rel="prev" class="posts newer btn small" href="{{ site.baseurl }}/page{{ paginator.previous_page }}/"><span class="octicon octicon-chevron-left"></span></a>
-  {% endif %}
-{% endif %}
-
-<span class="pagination__page-number">Page {{ paginator.page}} of {{ paginator.total_pages}}</span>
-
-{% if paginator.next_page %}
-  <a rel="next" class="posts older btn small" href="{{ site.baseurl }}/page{{ paginator.next_page }}/"><span class="octicon octicon-chevron-right"></span></a>
-{% endif %} -->
 {% if paginator.total_pages > 1 %}
   <nav class="pagination" role="navigation"></nav>
     {% if paginator.previous_page %}
@@ -22,11 +9,14 @@
     {% endif %}
   
     {% for page in (1..paginator.total_pages) %}
+      {% if page %}
       {% if page == paginator.page %}
         <em>{{ page }}</em>
-      {% elsif page == 1 %}<a href="{{ site.baseurl }}/#blog">
-      {% else %}<a href="{{site.paginate_path | prepend: site.baseurl | replace: ':num', page }}/">
-      {% endif %}{{ page }}</a>
+      {% elsif page == 1 %}
+        <a href="{{ site.baseurl }}/#blog">{{ page }}</a>
+      {% else %}
+        <a href="{{site.paginate_path | prepend: site.baseurl | replace: ':num', page }}/">{{ page }}</a>
+      {% endif %}
     {% endfor %}
   
     {% if paginator.next_page %}
