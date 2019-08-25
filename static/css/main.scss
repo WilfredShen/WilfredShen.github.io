@@ -283,13 +283,13 @@ pre.highlight code,
 
 .fade-out {
   opacity: 0;
-  -webkit-animation: fade-out 1s linear;
-  animation: fade-out 1s linear; }
+  -webkit-animation: fade-out 1s ease-out;
+  animation: fade-out 1s ease-out; }
 
 .fade-in {
   opacity: 1;
-  -webkit-animation: fade-in 1s linear;
-  animation: fade-in 1s linear; }
+  -webkit-animation: fade-in 1s ease-out;
+  animation: fade-in 1s ease-out; }
 
 @media all and (max-width: 960px) {
   .side-navbar {
