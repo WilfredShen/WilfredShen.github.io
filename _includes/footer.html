@@ -1,14 +1,6 @@
 <footer class="footer">
   <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
 </footer>
-<ul class="side-navbar">
-  <li class="Home"><a href="{{ site.url }}"><span class="fa fa-fw fa-home"></span>&nbsp;&nbsp;Home</a></li>
-    {% for p in site.pages %}
-    {% if p.isNavItem %}<li><a href="{{ p.url | prepend: site.baseurl }}"><span class="fa fa-fw {{ p.icon }}"></span>&nbsp;&nbsp;{{ p.title }}</a></li>{% endif %}
-    {% endfor %}
-    <li class="backToTop"><span class="fa fa-fw fa-rocket fa-rotate-315"></span>&nbsp;&nbsp;Top</li>
-</ul>
-<i class="side-nav-btn side-nav-btn-corner"><div><span class="fa fa-cog"></span></div></i>
 
 <script type="text/javascript" src="{{ site.srcurl }}/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="{{ site.srcurl }}/js/main.js?{{ site.time | date: '%s%N' }}"></script>
