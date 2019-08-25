@@ -18,6 +18,8 @@ $(document).ready(function () {
     $('.content-wrapper').attr('style', 'display: block')
   })
 
+  new ClipboardJS('.copy-here');
+
   $('.side-nav-btn').click(clickSideNavbar)
 
   function clickSideNavbar () {

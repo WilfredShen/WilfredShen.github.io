@@ -28,40 +28,36 @@
             {% if site.author.qq %}
               <!-- QQ -->
               <li class="navigation__item">
-                <a href="{{ 'http://twitter.com/' | append: site.author.twitter_username }}" title="@{{ site.author.qq }} on QQ" target="_blank">
-                  <i class="fa icon fa-qq"></i>
-                  <span class="label">Twitter</span>
-                </a>
+                <div class="icon-container copy-here" data-clipboard-text="{{ site.author.qq }}" title="点击复制：{{ site.author.qq }}到剪切板">
+                  <i class="fa icon fa-qq" aria-hidden="true"></i>
+                </div>
               </li>
             {% endif %}
 
             {% if site.author.wechat %}
               <!-- Wechat -->
               <li class="navigation__item">
-                <a href="{{ 'http://twitter.com/' | append: site.author.twitter_username }}" title="@{{ site.author.wechat }} on Wechat" target="_blank">
-                  <i class="fa icon fa-weixin"></i>
-                  <span class="label">Twitter</span>
-                </a>
+                <div class="icon-container copy-here" data-clipboard-text="{{ site.author.wechat }}" title="点击复制：{{ site.author.wechat }}到剪切板">
+                  <i class="fa icon fa-weixin" aria-hidden="true"></i>
+                </div>
               </li>
             {% endif %}
 
             {% if site.author.github_username %}
               <!-- GitHub -->
               <li class="navigation__item">
-                <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
-                  <i class="fa icon fa-github"></i>
-                  <span class="label">GitHub</span>
-                </a>
+                <div class="icon-container visit" title="点击访问：{{ site.author.github_username }} on GitHub">
+                  <i class="fa icon fa-github" aria-hidden="true"></i>
+                </div>
               </li>
             {% endif %}
 
             {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
-                <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="fa icon fa-envelope"></i>
-                  <span class="label">Email</span>
-                </a>
+                <div class="icon-container mail-to" title="Email: {{ site.author.email }}">
+                  <i class="fa icon fa-envelope" aria-hidden="true"></i>
+                </div>
               </li>
             {% endif %}
 
