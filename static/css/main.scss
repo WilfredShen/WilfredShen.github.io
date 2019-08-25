@@ -358,8 +358,7 @@ pre.highlight code,
     display: block;
     margin-bottom: .4em; } }
 
-.fa-17 { font-size: 1.7em; }
-
-.btn-mobile-menu { line-height: 43px; }
-
-.icon-container { line-height: 47px; }
+.fa-17 {
+  font-size: 1.7em;
+  line-height: 1.7em;
+}
