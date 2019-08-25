@@ -278,8 +278,8 @@ pre.highlight code,
 }
 
 .go-up {
-  -webkit-animation: go-up 1s linear;
-  animation: go-up 1s linear; }
+  -webkit-animation: go-up 1s ease-out;
+  animation: go-up 1s ease-out; }
 
 .fade-out {
   opacity: 0;
