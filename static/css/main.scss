@@ -107,7 +107,7 @@ pre.highlight code,
     height: 44px;
     display: block; }
     .side-nav-btn-corner span::before {
-      font-size: 44px;
+      font-size: 36px;
       line-height: 44px; 
       width: 100%;
       height: 100%; }
@@ -116,7 +116,7 @@ pre.highlight code,
     height: 44px;
     width: 312px; }
     .side-nav-btn-bar span::before {
-      font-size: 44px;
+      font-size: 36px;
       line-height: 44px; 
       width: 100%;
       height: 100%; }
@@ -144,6 +144,7 @@ pre.highlight code,
   animation: go-up 1s ease-out; }
 
 .cog-rotate {
+  opacity: 0;
   -webkit-animation: cog-rotate 1s linear;
   animation: cog-rotate 1s linear; }
 
