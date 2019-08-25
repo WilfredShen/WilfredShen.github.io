@@ -2,7 +2,7 @@
 layout: categories
 title: Categories
 permalink: /categories/
-icon: octicon-list-unordered
+icon: fa-list-ul
 isNavItem: true
 robots: noindex
 ---

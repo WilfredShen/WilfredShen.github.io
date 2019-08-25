@@ -2,7 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
-icon: octicon-person
+icon: fa-heart
 isNavItem: true
 robots: noindex
 ---

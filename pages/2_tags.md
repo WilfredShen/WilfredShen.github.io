@@ -2,7 +2,7 @@
 layout: tags
 title: Tags
 permalink: /tags/
-icon: octicon-tag
+icon: fa-tags
 isNavItem: true
 robots: noindex
 ---
