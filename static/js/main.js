@@ -41,7 +41,7 @@ $(document).ready(function () {
     $('.content-wrapper').attr('style', 'display: block')
   }
 
-  $('.btn-mobile-menu').click(function () {
+  $('.btn-mobile-menu__icon').click(function () {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
@@ -59,7 +59,6 @@ $(document).ready(function () {
     if (currentScroll > 0) {
          window.requestAnimationFrame(smoothscroll)
          window.scrollTo (0,currentScroll - (currentScroll/5))
-    } else {
     }
   }
 
