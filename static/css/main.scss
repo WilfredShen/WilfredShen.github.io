@@ -320,6 +320,19 @@ pre.highlight code,
   -ms-transform: rotate(315deg);
   transform: rotate(315deg); }
 
-.icon {
+.navigation__item div {
   display: block;
-  font-size: 1.7em; }
+  position: relative;
+  border-color: #FFF;
+  color: #FFF;
+  opacity: .8; }
+  .navigation__item div:hover {
+    color: #FFF;
+    border-color: #FFF;
+    opacity: 1; }
+
+.navigation--social div {
+  padding: 6px 8px 6px 9px; }
+  .navigation--social div .icon {
+    display: block;
+    font-size: 1.7em; }
