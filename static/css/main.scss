@@ -338,3 +338,22 @@ pre.highlight code,
   .navigation--social div .icon {
     display: block;
     font-size: 1.7em; }
+
+.navigation__item div {
+  padding: 10px 20px;
+  border: 1px solid #e25440;
+  border-radius: 20px;
+  font-size: .9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: none;
+  color: #e25440;
+  -webkit-font-smoothing: antialiased; }
+  .btn:hover, .navigation__item div:hover {
+    color: #b9301c;
+    border-color: #b9301c; }
+
+@media all and (max-width: 340px) {
+  .navigation__item div {
+    display: block;
+    margin-bottom: .4em; } }
