@@ -3,7 +3,7 @@
     {%- if paginator.previous_page -%}
       {%- if paginator.previous_page == 1 -%}<a href="{{ site.baseurl }}/#blog">
       {%- else -%}<a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', paginator.previous_page }}/">
-      {% endif %}&laquo;&nbsp;Prev</a>
+      {%- endif -%}&laquo;&nbsp;Prev</a>&nbsp;
     {%- else -%}
       <span>&laquo;&nbsp;Prev</span>
     {%- endif -%}
@@ -15,7 +15,7 @@
           <em>{{ page }}</em>
         {%- elsif page == 1 -%}
           <a href="{{ site.baseurl }}/#blog">{{ page }}</a>
-        {-% else -%}
+        {%- else -%}
           <a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}/">{{ page }}</a>
         {%- endif -%}
         &nbsp;
@@ -23,9 +23,9 @@
     {%- endfor -%}
 
     {%- if paginator.next_page -%}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', paginator.next_page }}/">Next&nbsp;&raquo;</a>
+      &nbsp;<a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', paginator.next_page }}/">Next&nbsp;&raquo;</a>
     {%- else -%}
-      <span>Next&nbsp;&raquo;</span>
+      &nbsp;<span>Next&nbsp;&raquo;</span>
     {%- endif -%}
   </nav>
 {% endif %}
