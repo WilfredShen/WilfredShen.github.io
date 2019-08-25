@@ -11,6 +11,8 @@ imgrepo: 'https://WilfredShen.cn/static/images'
 author:
   name: 'Wilfred Shen'
   email: WilfredShen@tom.com
+  qq:  '215510355'
+  wechat:  WilfredShen-
   # twitter_username: WilfredShen
   # facebook_username: WilfredShen
   github_username:  WilfredShen
@@ -39,8 +41,7 @@ sass:
 kramdown:
   # use Github Flavored Markdown
   input: GFM
-  # do not replace newlines by <br>s
   syntax_highlighter: rouge
 
 plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+# exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
