@@ -89,7 +89,9 @@ pre.highlight code,
       width: 100%;
       color: #e6e6e6; }
   .side-nav-btn {
-    display: block;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
     position: fixed;
     opacity: 0.8;
     right: 0;
@@ -97,10 +99,10 @@ pre.highlight code,
     .side-nav-btn:hover {
       cursor: pointer; }
   .side-nav-btn-corner {
-    text-align: right;
+    text-align: center;
     width: 44px;
     height: 44px;
-    display: block;}
+    display: block; }
     .side-nav-btn-corner span::before {
       font-size: 44px;
       line-height: 44px; 
