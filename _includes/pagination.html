@@ -15,13 +15,13 @@
         {% elsif page == 1 %}
           <a href="{{ site.baseurl }}/#blog">{{ page }}</a>
         {% else %}
-          <a href="{{ site.paginate_path | prepend: site.baseurl }}/">{{ page }}</a>
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', page }}/">{{ page }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
   
     {% if paginator.next_page %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl }}/">Next &raquo;</a>
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', paginator.next_page }}/">Next &raquo;</a>
     {% else %}
       <span>Next &raquo;</span>
     {% endif %}
