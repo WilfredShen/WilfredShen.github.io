@@ -1651,13 +1651,15 @@ input[type="tel"]:-ms-input-placeholder {
 			display: block;
 			width: 100%; }
 			.cover-navigation .navigation li {
+				max-width: 400px;
 				width: 80%;
 				margin-bottom: .4em; }
 		.cover-navigation.navigation--social {
 			padding-top: 5px; }
 			.cover-navigation.navigation--social .navigation li {
 				display: inline-block;
-				width: 25.8%; }
+				min-width: 80px;
+				width: 15%; }
 
 	.content-wrapper {
 		width: 80%;
