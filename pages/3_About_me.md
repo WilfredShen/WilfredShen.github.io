@@ -2,7 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
-icon: octicon-tag
+icon: octicon-person
 isNavItem: true
 robots: noindex
 ---
