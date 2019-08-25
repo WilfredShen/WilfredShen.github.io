@@ -336,7 +336,13 @@ pre.highlight code,
   color: #FFF;
   opacity: .8;
   -webkit-font-smoothing: antialiased; }
-    .navigation-icons:hover { opacity: 1; }
+    .navigation-icons:hover {
+      opacity: 1;
+      transition: .5s;
+      -o-transition: .5s;
+      -ms-transition: .5s;
+      -moz-transition: .5s;
+      -webkit-transition: .5s; }
 
 .blogs-btn {
   height: auto;
