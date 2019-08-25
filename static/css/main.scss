@@ -277,6 +277,26 @@ pre.highlight code,
     transform: rotate(359deg); }
 }
 
+@-webkit-keyframes show-highlight {
+  0% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes show-highlight {
+  0% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes show-highlight {
+  0% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
+@keyframes show-highlight {
+  0% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+
 .go-up {
   -webkit-animation: go-up 1s ease-out;
   animation: go-up 1s ease-out; }
@@ -338,11 +358,8 @@ pre.highlight code,
   -webkit-font-smoothing: antialiased; }
     .navigation-icons:hover {
       opacity: 1;
-      transition: .5s;
-      -o-transition: .5s;
-      -ms-transition: .5s;
-      -moz-transition: .5s;
-      -webkit-transition: .5s; }
+      -webkit-animation: show-highlight .5s linear;
+      animation: show-highlight .5s linear; }
 
 .blogs-btn {
   height: auto;
