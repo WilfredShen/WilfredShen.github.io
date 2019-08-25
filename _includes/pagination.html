@@ -5,7 +5,7 @@
       {%- else -%}<a href="{{ site.paginate_path | prepend: site.baseurl | replace: ':num', paginator.previous_page }}/">
       {%- endif -%}&laquo;&nbsp;Prev</a>&nbsp;
     {%- else -%}
-      <span>&laquo;&nbsp;Prev</span>
+      <span>&laquo;&nbsp;Prev</span>&nbsp;
     {%- endif -%}
 
     {%- for page in (1..paginator.total_pages) -%}
