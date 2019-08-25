@@ -96,6 +96,9 @@ pre.highlight code,
     opacity: 0.8;
     right: 0;
     bottom: 0; }
+    .side-nav-btn div {
+      width: 44px;
+      height: 44px; }
     .side-nav-btn:hover {
       cursor: pointer; }
   .side-nav-btn-corner {
@@ -112,6 +115,11 @@ pre.highlight code,
     z-index: 99999;
     height: 44px;
     width: 312px; }
+    .side-nav-btn-bar span::before {
+      font-size: 44px;
+      line-height: 44px; 
+      width: 100%;
+      height: 100%; }
 
 @keyframes go-up {
   0% { opacity: 0; transform: translateY(1000px); }
