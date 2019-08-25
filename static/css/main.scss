@@ -321,6 +321,7 @@ pre.highlight code,
   transform: rotate(315deg); }
 
 .navigation-icons {
+  display: inline-block;
   width: 2em;
   height: 2em;
   font-size: 1.7em;
@@ -328,7 +329,7 @@ pre.highlight code,
   border-radius: 1em;
   text-align: center; }
   .navigation-icons div {
-    display: inline-block;
+    display: block;
     position: relative;
     border: 1px solid #FFF;
     font-weight: bold;
