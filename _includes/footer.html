@@ -1,6 +1,7 @@
 <footer class="footer">
   <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
   <ul class="side-navbar">
+    <li class="Home"><a href="{{ site.baseurl }}"><span class="octicon octicon-home"></span>&nbsp;&nbsp;Home</a></li>
       {% for p in site.pages %}
       {% if p.isNavItem %}<li><a href="{{ p.url | prepend: site.baseurl }}"><span class="octicon {{ p.icon }}"></span>&nbsp;&nbsp;{{ p.title }}</a></li>{% endif %}
       {% endfor %}
