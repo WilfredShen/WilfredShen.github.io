@@ -321,6 +321,7 @@ pre.highlight code,
   transform: rotate(315deg); }
 
 .navigation__item div {
+  cursor: pointer;
   display: block;
   position: relative;
   border-color: #FFF;
@@ -332,6 +333,7 @@ pre.highlight code,
     opacity: 1; }
 
 .navigation--social div {
+  cursor: pointer;
   padding: 6px 8px 6px 9px; }
   .navigation--social div .icon {
     display: block;
