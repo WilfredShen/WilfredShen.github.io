@@ -324,32 +324,24 @@ pre.highlight code,
   display: inline-block;
   width: 2em;
   height: 2em;
-  font-size: 1.7em;
+  font-size: 1.2em;
   line-height: 2em;
   border-radius: 1em;
-  text-align: center; }
-  .navigation-icons div {
-    display: block;
-    position: relative;
-    border: 1px solid #FFF;
-    font-weight: bold;
-    cursor: pointer;
-    color: #FFF;
-    opacity: .8;
-    -webkit-font-smoothing: antialiased; }
-    .navigation-icons div:hover {
-      color: #FFF;
-      border-color: #FFF;
-      opacity: 1; }
+  text-align: center; 
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #FFF;
+  font-weight: bold;
+  color: #FFF;
+  opacity: .8;
+  -webkit-font-smoothing: antialiased; }
+    .navigation-icons:hover { opacity: 1; }
 
 @media all and (max-width: 340px) {
-  .navigation-icons div {
+  .navigation-icons {
     display: block;
     margin-bottom: .4em; } }
 
-.fa-17 {
-  font-size: 1.7em;
-  line-height: 1.7em; }
-
 .btn-mobile-menu__icon {
+  font-size: 43px;
   line-height: 43px; }
