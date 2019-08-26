@@ -18,7 +18,7 @@ excerpt: Why not have a try?
 
 # 更新conda
 
-```cmd
+```python
 # 运行以下命令
 	conda update -n base -c defaults conda
 # 如果得到以下询问，请输入任意非n字符同意并继续
@@ -34,7 +34,7 @@ excerpt: Why not have a try?
 
 # 新建环境
 
-```cmd
+```python
 # 运行以下命令新建环境，其中py37是环境名，可以自定义，python=3.7表示python版本
 	conda create -n py37 python=3.7
 # 同上一步骤，遇到的所有以下询问均输入任意非n字符同意
@@ -45,7 +45,7 @@ excerpt: Why not have a try?
 
 # 切换环境
 
-```cmd
+```python
 # 运行以下命令切换到新创建的环境中
 	conda activate py37
 # 此时运行以下命令可以看到环境已经切换
@@ -79,7 +79,7 @@ excerpt: Why not have a try?
 - **本步骤中进行的配置是推荐配置，并非强制要求，请按需使用**
 -  **本步骤中的版本可能不同，并不影响**
 
-```cmd
+```python
 # 运行以下命令更新pip
 	python -m pip install --upgrade pip
 # 失败则多尝试几次，最终会得到以下反馈
