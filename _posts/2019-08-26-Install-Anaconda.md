@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Install Anaconda
+title: 安装Anaconda
 date: 2019-08-26 16:20:00
 tags: Anaconda Python
 categories: install-Anaconda install-Python
