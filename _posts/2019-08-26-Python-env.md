@@ -2,10 +2,13 @@
 layout: post
 title: Python环境配置
 date: 2019-08-26 18:00:00
-tags: Python Environment
+tags: Environment Python
 categories: install-Python
 excerpt: Why not have a try?
 ---
+
+* TOC
+{:toc}
 
 本篇博客的装配教程以安装了Anaconda为基础，Anaconda的安装与[这篇博客](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)相同可保证无误，若按其他方式装配，本篇博客不保证绝对正确，仅供对比参考。
 
