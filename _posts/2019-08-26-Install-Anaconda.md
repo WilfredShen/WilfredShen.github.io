@@ -92,10 +92,10 @@ excerpt: Why not have a try?
 ## 装配Python 3.7
 
 
-[pic-1][{{ '/Install Anaconda/pic-1.png' | prepend: site.srcurl }}]
-[pic-2][{{ '/Install Anaconda/pic-2.png' | prepend: site.srcurl }}]
-[pic-3][{{ '/Install Anaconda/pic-3.png' | prepend: site.srcurl }}]
-[pic-4][{{ '/Install Anaconda/pic-4.png' | prepend: site.srcurl }}]
-[pic-5][{{ '/Install Anaconda/pic-5.png' | prepend: site.srcurl }}]
-[pic-6][{{ '/Install Anaconda/pic-6.png' | prepend: site.srcurl }}]
-[pic-7][{{ '/Install Anaconda/pic-7.png' | prepend: site.srcurl }}]
+[pic-1]: {{ '/Install Anaconda/pic-1.png' | prepend: site.imgrepo }}
+[pic-2]: {{ '/Install Anaconda/pic-2.png' | prepend: site.imgrepo }}
+[pic-3]: {{ '/Install Anaconda/pic-3.png' | prepend: site.imgrepo }}
+[pic-4]: {{ '/Install Anaconda/pic-4.png' | prepend: site.imgrepo }}
+[pic-5]: {{ '/Install Anaconda/pic-5.png' | prepend: site.imgrepo }}
+[pic-6]: {{ '/Install Anaconda/pic-6.png' | prepend: site.imgrepo }}
+[pic-7]: {{ '/Install Anaconda/pic-7.png' | prepend: site.imgrepo }}
