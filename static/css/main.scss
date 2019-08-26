@@ -297,6 +297,26 @@ pre.highlight code,
   100% { opacity: 1; }
 }
 
+@-webkit-keyframes fade-color {
+  0% { background: rgba(0,0,0,0.4); }
+  100% { background: rgba(51,51,51,0.98); }
+}
+
+@-moz-keyframes fade-color {
+  0% { background: rgba(0,0,0,0.4); }
+  100% { background: rgba(51,51,51,0.98); }
+}
+
+@-o-keyframes fade-color {
+  0% { background: rgba(0,0,0,0.4); }
+  100% { background: rgba(51,51,51,0.98); }
+}
+
+@keyframes fade-color {
+  0% { background: rgba(0,0,0,0.4); }
+  100% { background: rgba(51,51,51,0.98); }
+}
+
 .go-up {
   -webkit-animation: go-up 1s ease-out;
   animation: go-up 1s ease-out; }
@@ -375,5 +395,7 @@ pre.highlight code,
   line-height: 36px; }
 
 .btn-mobile-menu-color {
+  border: 0;
   background: rgba(51,51,51,0.98);
-}
+  -webkit-animation: fade-color 1s ease-out;
+  animation: fade-color 1s ease-out; }
