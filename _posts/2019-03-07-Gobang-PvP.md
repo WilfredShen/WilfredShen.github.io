@@ -1,7 +1,8 @@
 ﻿---
 layout: post
-title: Java 五子棋-人人对战
-tags: Java
+title: 五子棋-人人对战
+date: 2019-03-07 12:00:00
+tags: Java Gobang
 categories: tech-Java
 excerpt: Why not have a try?
 ---

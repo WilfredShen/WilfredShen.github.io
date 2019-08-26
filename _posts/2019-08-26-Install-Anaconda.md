@@ -3,9 +3,12 @@ layout: post
 title: Install Anaconda
 date: 2019-08-26 16:20:00
 tags: Anaconda Python
-categories: tech-Anaconda
+categories: install-Anaconda install-Python
 excerpt: Why not have a try?
 ---
+
+* TOC
+{:toc}
 
 > Anaconda 是一个可用于科学计算的 Python 发行版，支持 Linux、Mac、Windows系统，内置了常用的科学计算包。
 

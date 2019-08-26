@@ -1,7 +1,8 @@
 ﻿---
 layout: post
 title: 类和对象
-tags: Java
+date: 2018-12-08 12:00:00
+tags: Java Class Object
 categories: tech-Java
 excerpt: Why not have a try?
 ---

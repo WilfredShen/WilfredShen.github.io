@@ -1,7 +1,8 @@
 ﻿---
 layout: post
-title: Java 类的继承
-tags: Java
+title: 类的继承
+date: 2018-12-21 12:00:00
+tags: Java Inheritance
 categories: tech-Java
 excerpt: Why not have a try?
 ---

@@ -1,7 +1,8 @@
 ﻿---
 layout: post
-title: Java 接口&监听
-tags: Java
+title: 接口&监听
+date: 2018-12-28 12:00:00
+tags: Java Interface Listener
 categories: tech-Java
 excerpt: Why not have a try?
 ---
