@@ -94,6 +94,8 @@ excerpt: Why not have a try?
 
 ## 装配Python 3.7
 
+[博客链接：https://wilfredshen.cn/blog/2019/08/26/Python-env/](https://wilfredshen.cn/blog/2019/08/26/Python-env/)
+
 
 [pic-1]: {{ '/Install Anaconda/pic-1.png' | prepend: site.imgrepo }}
 [pic-2]: {{ '/Install Anaconda/pic-2.png' | prepend: site.imgrepo }}
