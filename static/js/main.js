@@ -46,11 +46,13 @@ $(document).ready(function () {
   $('.btn-mobile-menu__icon').click(function () {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
+    $('.btn-mobile-menu').toggleClass('btn-mobile-menu-color')
   })
 
   $('.navigation-wrapper .blog-button').click(function () {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown')
     $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
+    $('.btn-mobile-menu').toggleClass('btn-mobile-menu-color')
   })
 
   $('.visit').click(function () {
