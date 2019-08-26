@@ -53,6 +53,14 @@ $(document).ready(function () {
     $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
   })
 
+  $('.visit').click(function () {
+    window.location("https://github.com/{{ site.author.github_username }}")
+  })
+
+  $('.mail-to').click(function () {
+    window.location.href("mailto:{{ site.author.email }}")
+  })
+
   $('.backToTop').click(smoothscroll)
 
   function smoothscroll(){
