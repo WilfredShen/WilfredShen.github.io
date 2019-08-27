@@ -335,7 +335,9 @@ pre.highlight code,
 
 @media all and (max-width: 960px) {
   .side-navbar {
-    width: 100%; }
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0; }
 
   .side-nav-btn-bar {
     width: 100%; }
