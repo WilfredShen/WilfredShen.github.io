@@ -90,7 +90,7 @@ excerpt: 多图预警，小心流量！
 
 由于Anaconda Prompt经常会用到，基于方便考虑，我们可以将它添加到右键菜单中，同时还可以将cmd添加到右键菜单中。
 
-博客链接稍后会给出，也可自行搜索添加方法。
+[博客链接：https://wilfredshen.cn/blog/2019/08/27/Anaconda-Prompt-Here/](https://wilfredshen.cn/blog/2019/08/26/Anaconda-Prompt-Here/)
 
 ## 装配Python 3.7
 
