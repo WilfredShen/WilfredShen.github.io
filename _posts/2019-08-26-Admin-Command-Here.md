@@ -20,7 +20,7 @@ excerpt: Why not have a try?
 
 1. **打开“运行”窗口**（快捷键：Windows徽标键+R）**，输入“regedit”打开注册表编辑器**
 2. **上方路径处输入“计算机\HKEY_CLASSES_ROOT\Directory\Background\shell”**（也可能是“我的电脑”等）
-3. **右击“shell”→“新建”→“项”，命名为“runas”**（管理员权限打开，命名为其他无效）
+3. **右击“shell”→“新建”→“项”，命名为“runas”**（管理员权限打开，命名为其他无权限）
 4. **选中“runas”项，双击右侧窗口的“（默认）”项**（其值为显示在右键菜单中的名称）
 5. ※&nbsp;右击“runas”→“新建”→“字符串值”，命名为“Icon”
 6. ※&nbsp;双击“Icon”，设置其值为“cmd.exe”（其值为右键菜单中显示的图标的路径）

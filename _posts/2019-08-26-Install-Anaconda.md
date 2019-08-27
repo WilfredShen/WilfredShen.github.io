@@ -4,7 +4,7 @@ title: 安装Anaconda
 date: 2019-08-26 16:20:00
 tags: Anaconda Python
 categories: install-Anaconda install-Python
-excerpt: Why not have a try?
+excerpt: 多图预警，小心流量！
 ---
 
 * TOC
@@ -62,13 +62,13 @@ excerpt: Why not have a try?
 
 以上操作会打开一个页面，可以看到系统变量和用户变量两个区域（配置为用户变量则只有当前用户有效）
 
-选择一个区域中的“PATH”变量（也可能叫“Path”等），点击“编辑”→“新建”，共需要创建两条，以Anaconda安装路径为“D:\Anaconda3”为例，两个路径的值分别为：
-- D:\Anaconda3
-- D:\Anaconda3\Scripts
+有两种方法添加：
+1. 选择一个区域中的“PATH”变量（也可能叫“Path”等），点击“编辑”→“新建”，共需要创建两条，以Anaconda安装路径为“D:\Anaconda3”为例，两个路径的值分别为：
+    - D:\Anaconda3
+    - D:\Anaconda3\Scripts
+2. 直接编辑文本，在末尾添加“D:\Anaconda3;D:\Anaconda3\Scripts;”
 
-也可直接编辑文本，在末尾添加“D:\Anaconda3;D:\Anaconda3\Scripts;”
-
-注意路径结尾添加分号，且不要用引号将路径包裹
+注意第二种方法要在路径结尾添加分号，且不要带引号
 
 到这里环境变量就配置完毕了
 
