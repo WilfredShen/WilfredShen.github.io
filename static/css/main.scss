@@ -338,7 +338,8 @@ pre.highlight code,
   .side-navbar {
     width: 100%;
     border-radius: 0;
-    max-width: none; }
+    max-width: none;
+    min-width: 360px; }
 
   .side-nav-btn-bar {
     width: 100%; }
