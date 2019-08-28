@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 机器学习笔记（一）
-date: 2019-08-28 18:00:00
+date: 2019-08-28 12:00:00
 tags: Python AI
 categories: tech-AI
 excerpt: Why not have a try?
