@@ -23,7 +23,9 @@ excerpt: Why not have a try?
 5. ※&nbsp;右击“Anaconda”→“新建”→“字符串值”，命名为“Icon”
 6. ※&nbsp;双击“Icon”，设置其值为“cmd.exe”（其值为右键菜单中显示的图标的路径）
 7. **右击“Anaconda”→“新建”→“项”，命名为“command”**
-8. **选中“command”项，双击右侧窗口的“（默认）”项，设置其值为“cmd.exe /s /k "title Anaconda" && D:\\Anaconda3\\Scripts\\activate.bat D:\\Anaconda3”**（“D:\\Anaconda3”更改为自己安装的Anaconda的路径）
+8. **选中“command”项，双击右侧窗口的“（默认）”项，设置其值为：**
+   - “cmd.exe /s /k "title Anaconda" && D:\\Anaconda3\\Scripts\\activate.bat D:\\Anaconda3”
+   - “D:\\Anaconda3”更改为自己安装的Anaconda的路径
 
 # 对比图
 
