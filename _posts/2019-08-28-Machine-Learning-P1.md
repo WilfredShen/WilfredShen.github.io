@@ -38,7 +38,7 @@ excerpt: Why not have a try?
 - $x_1$：特征1的值
 - $b$：偏差
 
-多个特征：$ y' = b + w_1x_1 + w_2x_2 + w_3x_3 + ... $
+多个特征：\\( y' = b + w_1x_1 + w_2x_2 + w_3x_3 + ... \\)
 
 ## 训练与损失
 
@@ -57,9 +57,7 @@ excerpt: Why not have a try?
 
 **均方误差（MSE）**：每个样本的平均平方损失
 
-$$
-MSE = \frac{1}{N} \sum_{(x,y)\in D} (y - prediction(x))^2
-$$
+\\[ MSE = \frac{1}{N} \sum_{(x,y)\in D} (y - prediction(x))^2 \\]
 
 其中：
 - $(x, y)$指的是样本
