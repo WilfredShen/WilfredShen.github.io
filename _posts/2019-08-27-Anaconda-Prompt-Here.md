@@ -10,7 +10,7 @@ excerpt: Why not have a try?
 * TOC
 {:toc}
 
-# 话不多说，直入正题
+## 话不多说，直入正题
 
 - **此处涉及的所有的右击目标操作，均可以替换为选中目标并在右侧窗口空白处右击**
 - **所有的值均不带引号**
@@ -27,7 +27,7 @@ excerpt: Why not have a try?
    - “cmd.exe /s /k "title Anaconda" && D:\\Anaconda3\\Scripts\\activate.bat D:\\Anaconda3”
    - “D:\\Anaconda3”更改为自己安装的Anaconda的路径
 
-# 对比图
+## 对比图
 
 ![][pic-1]
 ![][pic-2]
@@ -35,7 +35,7 @@ excerpt: Why not have a try?
 [pic-1]: {{ '/Anaconda Prompt Here/pic-1.png' | prepend: site.imgrepo }}
 [pic-2]: {{ '/Anaconda Prompt Here/pic-2.png' | prepend: site.imgrepo }}
 
-# 额外内容
+## 额外内容
 
 下面这篇博客介绍了通过注册表来给右键菜单添加“用管理员权限在此处打开cmd”的方法
 

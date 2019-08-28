@@ -14,7 +14,7 @@ excerpt: 多图预警，小心流量！
 
 本篇博客介绍了Anaconda的安装及配置。由于Anaconda中集成的是某个版本的Python，可能无法满足大家的使用需求，并且本身在安装完Anaconda后还需要一些操作，所以底部会放出Python 3.7的装配方法。
 
-# 下载
+## 下载
 
 [Anaconda官网链接：https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/)
 
@@ -22,7 +22,7 @@ excerpt: 多图预警，小心流量！
 
 请按自己的系统版本进行下载，默认会选择到macOS标签，请不要点错，我下载的是Windows Python v3.7 64-Bits
 
-# 安装
+## 安装
 
 下载完是这么一个东西
 
@@ -54,7 +54,7 @@ excerpt: 多图预警，小心流量！
 
 然后点击Install安装即可。
 
-# 配置环境变量
+## 配置环境变量
 
 不同的电脑图形化界面可能不一样，就不放图了。
 
@@ -72,7 +72,7 @@ excerpt: 多图预警，小心流量！
 
 到这里环境变量就配置完毕了
 
-# 测试
+## 测试
 
 完成以上步骤，可以打开Anaconda Prompt，输入“conda list”测试，如果以前没有安装过Python相关的软件，且按照我以上步骤安装，那么理当一切正常，并显示以下界面（Anaconda Prompt可以在开始菜单的Anaconda文件夹中找到）
 
@@ -84,15 +84,15 @@ excerpt: 多图预警，小心流量！
 
 ![][pic-7]
 
-# 额外内容
+## 额外内容
 
-## 注册表
+### 注册表
 
 由于Anaconda Prompt经常会用到，基于方便考虑，我们可以将它添加到右键菜单中，同时还可以将cmd添加到右键菜单中。
 
 [博客链接：https://wilfredshen.cn/blog/2019/08/27/Anaconda-Prompt-Here/](https://wilfredshen.cn/blog/2019/08/26/Anaconda-Prompt-Here/)
 
-## 装配Python 3.7
+### 装配Python 3.7
 
 [博客链接：https://wilfredshen.cn/blog/2019/08/26/Python-env/](https://wilfredshen.cn/blog/2019/08/26/Python-env/)
 

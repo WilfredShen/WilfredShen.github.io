@@ -16,7 +16,7 @@ excerpt: Why not have a try?
 
 **下载需要一个较好地网络环境，可能会遇到网络问题导致下载失败，请切换网络或多尝试几次**
 
-# 更新conda
+## 更新conda
 
 ```python
 # 运行以下命令
@@ -32,7 +32,7 @@ excerpt: Why not have a try?
 	conda 4.7.11
 ```
 
-# 新建环境
+## 新建环境
 
 ```python
 # 运行以下命令新建环境，其中py37是环境名，可以自定义，python=3.7表示python版本
@@ -43,7 +43,7 @@ excerpt: Why not have a try?
 	Solving environment: done
 ```
 
-# 切换环境
+## 切换环境
 
 ```python
 # 运行以下命令切换到新创建的环境中
@@ -74,7 +74,7 @@ excerpt: Why not have a try?
 	wincertstore              0.2                      py37_0
 ```
 
-# 配置环境
+## 配置环境
 
 - **本步骤中进行的配置是推荐配置，并非强制要求，请按需使用**
 -  **本步骤中的版本可能不同，并不影响**
@@ -124,7 +124,7 @@ excerpt: Why not have a try?
 	wincertstore              0.2                      py37_0
 ```
 
-# 完成
+## 完成
 
 至此，Python环境配置基本完成，还剩下ide等工具，此处不再做介绍，以后可能会在此处添加链接。
 

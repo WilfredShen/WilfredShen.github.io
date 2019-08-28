@@ -12,7 +12,7 @@ excerpt: Why not have a try?
 
 我使用Python 3.7来进行学习，没有装配环境的同学可以到[下方链接](#Links)查看教程。
 
-# 术语
+## 术语
 
 - 标签
     - 我们要预测的真实事物：\\( y \\)
@@ -30,7 +30,7 @@ excerpt: Why not have a try?
     - 将样本映射到预测标签：\\( y' \\)
         - \\( y' \\)由模型的内部参数定义，这些内部参数值通过学习得到
 
-# 线性回归
+## 线性回归
 
 单个特征的线性关系：\\( y' = b + w_1x_1 \\)
 - \\( y' \\)：我们试图预测的值
@@ -40,7 +40,7 @@ excerpt: Why not have a try?
 
 多个特征：\\( y' = b + w_1x_1 + w_2x_2 + w_3x_3 + ... \\)
 
-## 训练与损失
+### 训练与损失
 
 训练模型表示通过有标签样本来学习（确定）所有权重和偏差的理想值。在监督式学习中，机器学习算法通过以下方式构建模型：检查多个样本并尝试找出可最大限度地减少损失的模型；这一过程称为**经验风险最小化**。
 
@@ -71,7 +71,7 @@ excerpt: Why not have a try?
 
 此外，由于MSE的值根据平方得来，其单位与数量级均不能很好地反映原始数据的情况，在实际操作时大多会选用RMSE，即对求得的值开平方。
 
-# Links
+## Links
 
 - 下期预告：降低损失
     - 还没有哦...
@@ -82,7 +82,7 @@ excerpt: Why not have a try?
 - [@Google官方教程链接](https://developers.google.cn/machine-learning/crash-course/ml-intro)
     - [https://developers.google.cn/machine-learning/crash-course/ml-intro](https://developers.google.cn/machine-learning/crash-course/ml-intro)
 
-## 往期回顾
+### 往期回顾
 
 这是第一期，请点击上方链接追踪学习进度。
 
