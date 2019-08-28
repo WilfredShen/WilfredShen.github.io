@@ -42,6 +42,7 @@ kramdown:
   # use Github Flavored Markdown
   input: GFM
   syntax_highlighter: rouge
+  mathjax: true
 
 plugins: ['jekyll-paginate']
 # exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
