@@ -19,7 +19,7 @@ excerpt: Why not have a try?
 - **带※的步骤为可选项**
 
 1. **打开“运行”窗口**（快捷键：Windows徽标键+R）**，输入“regedit”打开注册表编辑器**
-2. **上方路径处输入“计算机\HKEY_CLASSES_ROOT\Directory\Background\shell”**（也可能是“我的电脑”等）
+2. **上方路径处输入“计算机\\HKEY_CLASSES_ROOT\\Directory\\Background\\shell”**（也可能是“我的电脑”等）
 3. **右击“shell”→“新建”→“项”，命名为“runas”**（管理员权限打开，命名为其他无权限）
 4. ※&nbsp;选中“runas”项，双击右侧窗口的“（默认）”项（其值为显示在右键菜单中的名称，若不设置则显示为上一步中设置的名字）
 5. ※&nbsp;右击“runas”→“新建”→“字符串值”，命名为“Icon”
