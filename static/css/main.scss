@@ -74,6 +74,7 @@ pre.highlight code,
   box-shadow: -2px -2px 3px 8px #444444;
   margin: 0;
   width: 30%;
+  z-index: 99999;
   max-width: 360px;
   height: fit-content; }
   .side-navbar ul {
@@ -115,7 +116,7 @@ pre.highlight code,
       width: 100%;
       height: 100%; }
   .side-nav-btn-bar {
-    z-index: 99999;
+    z-index: 999999;
     height: 44px;
     width: 312px; }
     .side-nav-btn-bar span::before {
