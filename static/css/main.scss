@@ -444,10 +444,13 @@ pre.highlight code,
   word-wrap: break-word; }
 
 .navigation-wrapper {
-  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
   flex-direction: row-reverse;
   height: 42px;
   width: 100%;
   padding: 0; }
   .navigation-wrapper.visible {
-    display: inline-flex; }
+    display: flex; }
