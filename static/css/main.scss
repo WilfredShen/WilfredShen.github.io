@@ -405,16 +405,17 @@ pre.highlight code,
 			.cover-navigation .navigation li {
 				max-width: none;
 				width: auto;
-				margin-bottom: 0; }
+				margin: 0 8px; }
 		.cover-navigation.navigation--social {
 			padding-top: 0; }
 			.cover-navigation.navigation--social .navigation li {
 				display: inline-block;
-				min-width: none;
+				min-width: 0;
         width: auto; }
     .blog-button {
+      text-align: center;
       border-radius: 18px;
-      padding: 10px 0;
+      padding: 10px 10px;
       margin: 2px 0; }
 
 }
@@ -424,11 +425,13 @@ pre.highlight code,
     display: block;
     margin-bottom: .4em; } }
 
-.btn-mobile-menu__icon::before {
-  top: 0;
-  font-size: 30px;
-  line-height: 30px;
-  padding: auto; }
+  .btn-mobile-menu__icon {
+    display: inline-block;
+    top: 0; }
+    .btn-mobile-menu__icon::before {
+      font-size: 30px;
+      line-height: 30px;
+      padding: auto; }
 
 .btn-mobile-menu-fade {
   border: 0;
@@ -446,4 +449,4 @@ pre.highlight code,
   width: 100%;
   padding: 0; }
   .navigation-wrapper.visible {
-    display: flex; }
+    display: inline-flex; }
