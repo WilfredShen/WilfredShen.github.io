@@ -390,6 +390,8 @@ pre.highlight code,
     width: 100%; }
 
   .navigation__item {
+    border: 0;
+    border-radius: 0;
     width: 100%;
     margin: 0; }
 
@@ -401,7 +403,7 @@ pre.highlight code,
 		width: 100%; }
 		.cover-navigation .navigation {
 			display: block;
-			width: 100%; }
+			width: auto; }
 			.cover-navigation .navigation li {
 				max-width: none;
 				width: auto;
@@ -415,7 +417,6 @@ pre.highlight code,
         width: auto; }
     .blog-button {
       text-align: center;
-      border-radius: 18px;
       padding: 10px 10px;
       margin: 2px 0; }
 
