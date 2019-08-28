@@ -394,7 +394,7 @@ pre.highlight code,
     margin: 0; }
 
 	.cover-navigation {
-		display: block;
+		display: inline-flex;
 		position: relative;
 		float: left;
 		clear: left;
@@ -407,6 +407,7 @@ pre.highlight code,
 				width: auto;
 				margin: 0 8px; }
 		.cover-navigation.navigation--social {
+      margin: 0;
 			padding-top: 0; }
 			.cover-navigation.navigation--social .navigation li {
 				display: inline-block;
