@@ -44,15 +44,13 @@ $(document).ready(function () {
   }
 
   $('.btn-mobile-menu__icon').click(function () {
-    $('.navigation-wrapper').toggleClass('visible animated fadeIn')
-    $('.cover-navigation .navigation--social').toggleClass('bounceInRight')
+    $('.navigation-wrapper').toggleClass('visible bounceInRight')
     $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
     $('.btn-mobile-menu').toggleClass('btn-mobile-menu-fade')
   })
 
   $('.navigation-wrapper .blog-button').click(function () {
-    $('.navigation-wrapper').toggleClass('visible animated fadeIn')
-    $('.cover-navigation .navigation--social').toggleClass('bounceInRight')
+    $('.navigation-wrapper').toggleClass('visible bounceInRight')
     $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
     $('.btn-mobile-menu').toggleClass('btn-mobile-menu-fade')
   })
