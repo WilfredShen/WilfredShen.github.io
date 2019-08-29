@@ -411,6 +411,11 @@ pre.highlight code,
   .navigation-wrapper.visible {
     display: flex; }
 
+.bounceInLeft {
+  -webkit-animation: bounceInLeft 1s ease-out;
+  animation: bounceInLeft 1s ease-out;
+}
+
 @media all and (max-width: 960px) {
   .side-navbar {
     width: 100%;
@@ -421,7 +426,7 @@ pre.highlight code,
     width: 100%; }
 
   .navigation-wrapper {
-     width: fit-content;
+     width: 100%;
   }
 
 	.cover-navigation {
