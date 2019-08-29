@@ -458,7 +458,8 @@ pre.highlight code,
     width: 100%; }
 
   .navigation-wrapper {
-     width: 100%;
+    z-index: 999999;
+    width: 100%;
   }
 
 	.cover-navigation {
@@ -475,7 +476,6 @@ pre.highlight code,
 				width: auto;
 				margin: 0 3px; }
 		.cover-navigation.navigation--social {
-      z-index: 999999;
       margin: 0;
 			padding: 0 8px 0 0; }
 			.cover-navigation.navigation--social .navigation li {
@@ -485,6 +485,8 @@ pre.highlight code,
     .navigation__item {
       width: 100%;
       margin: 0; }
+    .navigation__item.blogs-btn {
+      padding: 0; }
       .navigation__item.blogs-btn a {
         display: inline-block;
         line-height: 26px;
