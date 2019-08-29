@@ -43,17 +43,17 @@ $(document).ready(function () {
     $('.content-wrapper').attr('style', 'display: block')
   }
 
-  $('.btn-mobile-menu__icon').click(function () {
-    $('.navigation-wrapper').toggleClass('visible bounceInRight')
-    $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
-    $('.btn-mobile-menu').toggleClass('btn-mobile-menu-fade')
-  })
+  // $('.btn-mobile-menu__icon').click(function () {
+  //   $('.navigation-wrapper').toggleClass('visible bounceInRight')
+  //   $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
+  //   $('.btn-mobile-menu').toggleClass('btn-mobile-menu-fade')
+  // })
 
-  $('.navigation-wrapper .blog-button').click(function () {
-    $('.navigation-wrapper').toggleClass('visible bounceInRight')
-    $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
-    $('.btn-mobile-menu').toggleClass('btn-mobile-menu-fade')
-  })
+  // $('.navigation-wrapper .blog-button').click(function () {
+  //   $('.navigation-wrapper').toggleClass('visible bounceInRight')
+  //   $('.btn-mobile-menu__icon').toggleClass('fa-close fa-bars animated fadeIn')
+  //   $('.btn-mobile-menu').toggleClass('btn-mobile-menu-fade')
+  // })
 
   $('.visit').click(function () {
     window.open("https://github.com/{{ site.author.github_username }}")
