@@ -427,6 +427,13 @@ pre.highlight code,
   animation: bounceInRight 1s ease-out;
 }
 
+@media all and (min-width: 961px) {
+  .cover-navigation {
+    -webkit-animation: bounceInDown 1s ease-out;
+    animation: bounceInDown 1s ease-out;
+  }
+}
+
 @media all and (max-width: 960px) {
 
   .navigation-wrapper {
