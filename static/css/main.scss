@@ -365,8 +365,9 @@ pre.highlight code,
   .navigation__item.blogs-btn {
     font-size: 1.3em;
     width: 100%;
-    padding: 3px 0;
-    margin: 10px auto; }
+    padding: 8px 0;
+    margin: 10px auto;
+    margin-bottom: 20px; }
     .navigation__item.blogs-btn a {
       width: 80%;
       padding: 5px 0;
@@ -446,7 +447,6 @@ pre.highlight code,
     flex-direction: row-reverse;
     padding: 0; }
     .navigation-wrapper.visible {
-      z-index: 99999;
       display: flex; }
 
   .side-navbar {
