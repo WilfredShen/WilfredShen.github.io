@@ -434,13 +434,19 @@ pre.highlight code,
     -webkit-animation: bounceInDown 1s ease-out;
     animation: bounceInDown 1s ease-out;
   }
+
+  .navigation--social {
+    margin: 0;
+  }
+
 }
 
 @media all and (max-width: 960px) {
 
   .navigation-wrapper {
     position: fixed;
-    background: rgba(51,51,51,0.98);
+    background: transparent;
+    border: 0;
     width: 100%;
     height: 42px;
     top: 0;
