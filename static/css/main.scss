@@ -434,6 +434,7 @@ pre.highlight code,
 
   .btn-mobile-menu__icon {
     display: inline-block;
+    z-index: 999999;
     top: 0; }
     .btn-mobile-menu__icon::before {
       font-size: 30px;
