@@ -395,22 +395,14 @@ pre.highlight code,
   -webkit-animation: fade-color 1s ease-out;
   animation: fade-color 1s ease-out; }
 
-.post {
-  word-wrap: break-word; }
-
 .navigation-wrapper {
-  position: fixed;
-  background: transparent;
-  top: 0;
-  right: 0;
-  display: none;
-  flex-direction: row-reverse;
+  display: flex;
   height: 42px;
   width: 100%;
   padding: 0; }
-  .navigation-wrapper.visible {
-    z-index: 99999;
-    display: flex; }
+
+.post {
+  word-wrap: break-word; }
 
 .bounceInRight {
   -webkit-animation: bounceInRight 1s ease-out;
@@ -418,6 +410,19 @@ pre.highlight code,
 }
 
 @media all and (max-width: 960px) {
+
+  .navigation-wrapper {
+    position: fixed;
+    background: transparent;
+    top: 0;
+    right: 0;
+    display: none;
+    flex-direction: row-reverse;
+    padding: 0; }
+    .navigation-wrapper.visible {
+      z-index: 99999;
+      display: flex; }
+
   .side-navbar {
     width: 100%;
     border-radius: 0;
