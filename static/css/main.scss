@@ -393,6 +393,10 @@ pre.highlight code,
     width: 100%;
     margin: 0; }
 
+  .navigation-wrapper {
+     width: fit-content;
+  }
+
 	.cover-navigation {
 		display: inline-flex;
 		position: relative;
@@ -452,7 +456,7 @@ pre.highlight code,
   display: flex;
   flex-direction: row-reverse;
   height: 42px;
-  width: auto;;
+  width: 100%;
   padding: 0 10px 0 0; }
   .navigation-wrapper.visible {
     display: flex; }
