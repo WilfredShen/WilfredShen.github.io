@@ -408,7 +408,7 @@ pre.highlight code,
 				margin: 0 3px; }
 		.cover-navigation.navigation--social {
       margin: 0;
-			padding-top: 0; }
+			padding: 0 8px 0 0; }
 			.cover-navigation.navigation--social .navigation li {
 				display: inline-block;
 				min-width: 0;
@@ -454,13 +454,13 @@ pre.highlight code,
   word-wrap: break-word; }
 
 .navigation-wrapper {
-  position: fixed;
+  position: none;
   top: 0;
   right: 0;
   display: flex;
   flex-direction: row-reverse;
   height: 42px;
   width: 100%;
-  padding: 0 10px 0 0; }
+  padding: 0; }
   .navigation-wrapper.visible {
     display: flex; }
