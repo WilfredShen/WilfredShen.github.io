@@ -362,6 +362,10 @@ pre.highlight code,
     width: 100%; }
   .cover-navigation .navigation__item {
     width: 16%; }
+  .navigation__item.blogs-btn {
+    padding: 10px 20px;
+    margin: auto;
+  }
 
 .navigation-icons {
   display: inline-block;
@@ -406,7 +410,7 @@ pre.highlight code,
 
 .navigation-wrapper {
   display: flex;
-  height: 42px;
+  height: auto;
   width: 100%;
   padding: 0; }
 
@@ -423,6 +427,7 @@ pre.highlight code,
   .navigation-wrapper {
     position: fixed;
     background: transparent;
+    height: 42px;
     top: 0;
     right: 0;
     display: none;
