@@ -490,6 +490,8 @@ pre.highlight code,
       margin: 0; }
     .navigation__item.blogs-btn {
       padding: 0; }
+      .navigation__item.blogs-btn .blog-button {
+        padding: 10px 0; }
       .navigation__item.blogs-btn a {
         display: inline-block;
         width: auto;
