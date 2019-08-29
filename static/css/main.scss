@@ -355,6 +355,12 @@ pre.highlight code,
   -ms-transform: rotate(315deg);
   transform: rotate(315deg); }
 
+.cover-navigation {
+  width: 100%; }
+  .cover-navigation .navigation__item {
+    width: 16%;
+  }
+
 .navigation-icons {
   display: inline-block;
   width: 36px;
