@@ -1,28 +1,5 @@
 <span class="mobile btn-mobile-menu">
   <i class="fa fa-bars btn-mobile-menu__icon"></i>
-  <div class="navigation-wrapper">
-    <nav class="cover-navigation navigation--social">
-      <ul class="navigation">
-        <li class="navigation__item blogs-btn"><a href="{{ '/#blog' | prepend: site.baseurl }}" title="Blogs" class="blog-button">Blog</a></li>
-      {%- if site.author.qq -%}
-        <!-- QQ -->
-        <li class="navigation__item"><div class="navigation-icons copy-here" data-clipboard-text="{{ site.author.qq }}" title="点击复制：{{ site.author.qq }}到剪切板"><i class="fa fa-qq" aria-hidden="true"></i></div></li>
-      {%- endif -%}
-      {%- if site.author.wechat -%}
-        <!-- Wechat -->
-        <li class="navigation__item"><div class="navigation-icons copy-here" data-clipboard-text="{{ site.author.wechat }}" title="点击复制：{{ site.author.wechat }}到剪切板"><i class="fa fa-weixin" aria-hidden="true"></i></div></li>
-      {%- endif -%}
-      {%- if site.author.github_username -%}
-        <!-- GitHub -->
-        <li class="navigation__item"><div class="navigation-icons visit" title="点击访问：{{ site.author.github_username }} on GitHub"><i class="fa fa-github" aria-hidden="true"></i></div></li>
-      {%- endif -%}
-      {%- if site.author.email -%}
-        <!-- Email -->
-        <li class="navigation__item"><div class="navigation-icons mail-to" title="Email: {{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></div></li>
-      {%- endif -%}
-      </ul>
-    </nav>
-  </div>
 </span>
 
 <header class="panel-cover" style="background-image: url('{{ site.imgrepo }}/cover.jpg')">
@@ -33,6 +10,31 @@
         <hr class="panel-cover__divider">
         <p class="panel-cover__description"><a href="{{ '/about' | prepend: site.url }}" title="了解更多">{{ site.description }}</a></p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
+        <!-- 导航栏 -->
+        <div class="navigation-wrapper">
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+              <li class="navigation__item blogs-btn"><a href="{{ '/#blog' | prepend: site.baseurl }}" title="Blogs" class="blog-button">Blog</a></li>
+            {%- if site.author.qq -%}
+              <!-- QQ -->
+              <li class="navigation__item"><div class="navigation-icons copy-here" data-clipboard-text="{{ site.author.qq }}" title="点击复制：{{ site.author.qq }}到剪切板"><i class="fa fa-qq" aria-hidden="true"></i></div></li>
+            {%- endif -%}
+            {%- if site.author.wechat -%}
+              <!-- Wechat -->
+              <li class="navigation__item"><div class="navigation-icons copy-here" data-clipboard-text="{{ site.author.wechat }}" title="点击复制：{{ site.author.wechat }}到剪切板"><i class="fa fa-weixin" aria-hidden="true"></i></div></li>
+            {%- endif -%}
+            {%- if site.author.github_username -%}
+              <!-- GitHub -->
+              <li class="navigation__item"><div class="navigation-icons visit" title="点击访问：{{ site.author.github_username }} on GitHub"><i class="fa fa-github" aria-hidden="true"></i></div></li>
+            {%- endif -%}
+            {%- if site.author.email -%}
+              <!-- Email -->
+              <li class="navigation__item"><div class="navigation-icons mail-to" title="Email: {{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></div></li>
+            {%- endif -%}
+            </ul>
+          </nav>
+        </div>
+
       </div>
     </div>
     <div class="panel-cover--overlay"></div>
