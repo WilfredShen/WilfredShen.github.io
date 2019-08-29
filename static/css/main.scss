@@ -409,6 +409,7 @@ pre.highlight code,
   width: 100%;
   padding: 0; }
   .navigation-wrapper.visible {
+    z-index: 99999;
     display: flex; }
 
 .bounceInRight {
