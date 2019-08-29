@@ -411,9 +411,9 @@ pre.highlight code,
   .navigation-wrapper.visible {
     display: flex; }
 
-.bounceInLeft {
-  -webkit-animation: bounceInLeft 1s ease-out;
-  animation: bounceInLeft 1s ease-out;
+.bounceInRight {
+  -webkit-animation: bounceInRight 1s ease-out;
+  animation: bounceInRight 1s ease-out;
 }
 
 @media all and (max-width: 960px) {
