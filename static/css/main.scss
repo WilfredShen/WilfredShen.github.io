@@ -454,10 +454,10 @@ pre.highlight code,
   word-wrap: break-word; }
 
 .navigation-wrapper {
-  position: none;
+  position: fixed;
   top: 0;
   right: 0;
-  display: flex;
+  display: none;
   flex-direction: row-reverse;
   height: 42px;
   width: 100%;
