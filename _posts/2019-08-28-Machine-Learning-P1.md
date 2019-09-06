@@ -74,7 +74,7 @@ excerpt: Why not have a try?
 ## Links
 
 - 下期预告：降低损失
-    - 还没有哦...
+    - 因为博主太菜了，现在去打基础去了，要拖更好久了。。。
 - [Anaconda安装教程](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)
     - [https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)
 - [Python环境装配教程](https://wilfredshen.cn/blog/2019/08/26/Python-env/)（先安装[Anaconda](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)）
