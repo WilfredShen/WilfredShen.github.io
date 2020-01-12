@@ -32,10 +32,10 @@ excerpt: Why not have a try?
 3. win+R打开运行窗口，输入msinfo32，在右侧找到以下条目
 ![][系统摘要]
    
-如果显示为**启用**等，则win+S打开搜索框，输入cmd，选择**以管理员身份运行**
-   ![][管理员运行cmd]
-
-   输入` bcdedit /set hypervisorlaunchtype off `，提示“操作成功完成”即可
+   如果显示为**启用**等，则win+S打开搜索框，输入cmd，选择**以管理员身份运行**
+      ![][管理员运行cmd]
+   
+   输入`bcdedit /set hypervisorlaunchtype off`，提示“操作成功完成”即可
 
 4. 以上步骤为禁用win10自带的虚拟机，还要注意的一点是使用虚拟机需要在BIOS界面启用**内存虚拟化**，由于不同厂家的BIOS界面差异较大，请自行解决
 
