@@ -1,13 +1,14 @@
 ---
 layout: post
 title: VMware Workstation Pro15安装教程
-date: 2020-01-13 01:00:00
-tags: VMware 虚拟机
+date: 2020-01-13 00:40:00
+tags: 虚拟机 VMware
 categories: tech-virtual-machine
 excerpt: Why not have a try?
 ---
 
-[TOC]
+* TOC
+{:toc}
 
 ## VMware Workstation Pro15安装教程
 
