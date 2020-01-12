@@ -34,7 +34,6 @@ excerpt: Why not have a try?
 ![][10-磁盘选择-2]
 
 上方网络选择处有三种模式，在这里简单介绍一下，可以跳过：
-
 - bridge：虚拟机类似网络中一台独立的主机，可以与网络中的其他真实主机通讯，需要手动配置IP地址、子网掩码等。
 - NAT：通过主机所在的网络访问公网，是最简易的上网模式，无需任何配置。 此模式下虚拟机的TCP/IP配置信息是由VMnet8(NAT)虚拟网络的DHCP服务器提供的，无法进行手工修改，因此虚拟系统也就无法和本局域网中的其他真实主机进行通讯。 
 - HostOnly：类似NAT模式，但是没有NAT服务，所以只能访问主机，而不能连接到Internet。
@@ -91,4 +90,3 @@ excerpt: Why not have a try?
 [18-root]: {{ '/Install Ubuntu VMware Workstation Pro 15/18-root.png' | prepend: site.imgrepo }}
 [19-完成分区]: {{ '/Install Ubuntu VMware Workstation Pro 15/19-完成分区.png' | prepend: site.imgrepo }}
 [20-安装完成]: {{ '/Install Ubuntu VMware Workstation Pro 15/20-安装完成.png' | prepend: site.imgrepo }}
-
