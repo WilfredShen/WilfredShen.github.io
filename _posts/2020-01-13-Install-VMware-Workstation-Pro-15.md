@@ -42,7 +42,7 @@ excerpt: Why not have a try?
 
 ### 正式安装
 
-正式安装十分简单，跟着安装程序走就可以:smile:
+正式安装十分简单，跟着安装程序走就可以
 
 [01-卸载界面]: {{ '/Install VMware Workstation Pro 15/01-卸载界面.png' | prepend: site.imgrepo }}
 [02-禁用主机服务]: {{ '/Install VMware Workstation Pro 15/02-禁用主机服务.png' | prepend: site.imgrepo }}
