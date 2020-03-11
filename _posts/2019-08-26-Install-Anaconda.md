@@ -47,6 +47,7 @@ excerpt: 多图预警，小心流量！
 ![][pic-5]
 
 两个选项的意思：
+
 1. 自动配置环境变量，不推荐。因为配置环境变量非常简单，下面会单独介绍。选择该选项虽然可以省一点力，却容易导致以后卸载或重新安装Anaconda时造成一些意外。
 2. 将此次安装的Anaconda注册为系统默认的Python 3.7，推荐勾选。可以方便其他应用搜索到本次安装的Python（勾选时如果计算机已注册有Python 3.7会有提示信息）
 
@@ -63,9 +64,10 @@ excerpt: 多图预警，小心流量！
 以上操作会打开一个页面，可以看到系统变量和用户变量两个区域（配置为用户变量则只有当前用户有效）
 
 有两种方法添加：
+
 1. 选择一个区域中的“PATH”变量（也可能叫“Path”等），点击“编辑”→“新建”，共需要创建两条，以Anaconda安装路径为“D:\Anaconda3”为例，两个路径的值分别为：
-    - D:\Anaconda3
-    - D:\Anaconda3\Scripts
+   * D:\Anaconda3
+   * D:\Anaconda3\Scripts
 2. 直接编辑文本，在末尾添加“D:\Anaconda3;D:\Anaconda3\Scripts;”
 
 注意第二种方法要在路径结尾添加分号，且不要带引号
@@ -95,7 +97,6 @@ excerpt: 多图预警，小心流量！
 ### 装配Python 3.7
 
 [博客链接：https://wilfredshen.cn/blog/2019/08/26/Python-env/](https://wilfredshen.cn/blog/2019/08/26/Python-env/)
-
 
 [pic-1]: {{ '/Install Anaconda/pic-1.png' | prepend: site.imgrepo }}
 [pic-2]: {{ '/Install Anaconda/pic-2.png' | prepend: site.imgrepo }}

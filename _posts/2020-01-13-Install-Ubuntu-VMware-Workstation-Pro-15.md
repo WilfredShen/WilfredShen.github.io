@@ -9,15 +9,16 @@ excerpt: Why not have a try?
 
 * TOC
 {:toc}
+
 ## 安装环境
 
-- VMware版本为 VMware Workstation Pro 15.5.1
-- Ubuntu版本为 ubuntu-12.04.5-desktop-i386
+* VMware版本为 VMware Workstation Pro 15.5.1
+* Ubuntu版本为 ubuntu-12.04.5-desktop-i386
 
 博主已经做过VMware安装教程以及兼容性处理，以下提供Ubuntu下载链接：
 
-- [网易镜像：http://mirrors.163.com/ubuntu-releases/precise/ubuntu-12.04.5-desktop-i386.iso](http://mirrors.163.com/ubuntu-releases/precise/ubuntu-12.04.5-desktop-i386.iso)
-- [官网原址：http://releases.ubuntu.com/12.04/ubuntu-12.04.5-desktop-i386.iso](http://releases.ubuntu.com/12.04/ubuntu-12.04.5-desktop-i386.iso)
+* [网易镜像：http://mirrors.163.com/ubuntu-releases/precise/ubuntu-12.04.5-desktop-i386.iso](http://mirrors.163.com/ubuntu-releases/precise/ubuntu-12.04.5-desktop-i386.iso)
+* [官网原址：http://releases.ubuntu.com/12.04/ubuntu-12.04.5-desktop-i386.iso](http://releases.ubuntu.com/12.04/ubuntu-12.04.5-desktop-i386.iso)
 
 ## 正式安装
 
@@ -34,10 +35,10 @@ excerpt: Why not have a try?
 ![][10-磁盘选择-2]
 
 上方网络选择处有三种模式，在这里简单介绍一下，可以跳过：
-- bridge：虚拟机类似网络中一台独立的主机，可以与网络中的其他真实主机通讯，需要手动配置IP地址、子网掩码等。
-- NAT：通过主机所在的网络访问公网，是最简易的上网模式，无需任何配置。 此模式下虚拟机的TCP/IP配置信息是由VMnet8(NAT)虚拟网络的DHCP服务器提供的，无法进行手工修改，因此虚拟系统也就无法和本局域网中的其他真实主机进行通讯。 
-- HostOnly：类似NAT模式，但是没有NAT服务，所以只能访问主机，而不能连接到Internet。
 
+* bridge：虚拟机类似网络中一台独立的主机，可以与网络中的其他真实主机通讯，需要手动配置IP地址、子网掩码等。
+* NAT：通过主机所在的网络访问公网，是最简易的上网模式，无需任何配置。 此模式下虚拟机的TCP/IP配置信息是由VMnet8(NAT)虚拟网络的DHCP服务器提供的，无法进行手工修改，因此虚拟系统也就无法和本局域网中的其他真实主机进行通讯。
+* HostOnly：类似NAT模式，但是没有NAT服务，所以只能访问主机，而不能连接到Internet。
 
 到此已经新建好虚拟机，接下来需要安装系统。首先我们需要选择一份系统镜像，最上方已经给出下载地址。在设置中选择下载好的镜像文件。推荐将镜像文件存放在固定位置，即使安装完系统也不要删除镜像文件，否则会打不开虚拟机。
 ![][11-选择系统镜像]
@@ -57,13 +58,13 @@ excerpt: Why not have a try?
 ![][18-root]
 ![][19-完成分区]
 
-- 其中交换分区即为swap，推荐为内存的2倍，单不超过8G
-  - swap在文件系统中选择，不要在挂载点中找或者输入一个swap
-  - q他挂载点选择文件系统有多种选项，一般为ext4或者xfs，两者各有千秋，不深究的话随便选一个即可
-- /boot挂载点为开机启动区，200-500MB即可，推荐不超过1G
-- /home挂载点为用户数据，一般会存放许多数据，不能太小，这里分配了10G
-- /挂载点为根目录，一般放一些重要文件，一般占磁盘的20%-40%即可，这里把剩下的空间都分给了它
-- 其中/home和/挂载点的大小分配因人而异，只要不太小，怎么开心怎么来，不用太纠结
+* 其中交换分区即为swap，推荐为内存的2倍，单不超过8G
+  * swap在文件系统中选择，不要在挂载点中找或者输入一个swap
+  * q他挂载点选择文件系统有多种选项，一般为ext4或者xfs，两者各有千秋，不深究的话随便选一个即可
+* /boot挂载点为开机启动区，200-500MB即可，推荐不超过1G
+* /home挂载点为用户数据，一般会存放许多数据，不能太小，这里分配了10G
+* /挂载点为根目录，一般放一些重要文件，一般占磁盘的20%*40%即可，这里把剩下的空间都分给了它
+* 其中/home和/挂载点的大小分配因人而异，只要不太小，怎么开心怎么来，不用太纠结
 
 之后选择时区和语言，然后设置账号，就可以等待安装完成了。
 

@@ -17,19 +17,19 @@ excerpt: Why not have a try?
 ```java
 //树木
 public class TreeA{
-	public String typeName;
-	public int health;
-	/**
-	*各种属性值
-	*/
+    public String typeName;
+    public int health;
+    /**
+    *各种属性值
+    */
 }
 //另一个文件
 public class TreeB{
-	public String typeName;
-	public int health;
-	/**
-	*各种属性值
-	*/
+    public String typeName;
+    public int health;
+    /**
+    *各种属性值
+    */
 }
 /**
 *更多的树
@@ -37,15 +37,15 @@ public class TreeB{
 //另一个文件
 //伐木工
 public class Cutter{
-	public String name;
-	public int speed;
-	//砍树A
-	public void cutA(TreeA tree){
-		tree.health -= speed;
-	}
-	/**
-	*砍其他的树
-	*/
+    public String name;
+    public int speed;
+    //砍树A
+    public void cutA(TreeA tree){
+        tree.health -= speed;
+    }
+    /**
+    *砍其他的树
+    */
 }
 ```
 
@@ -56,11 +56,13 @@ public class Cutter{
 既然叫继承，那么肯定是两个类（子类/派生类/超类 和 父类/基类）的事情，并且这两个类之间具有包含关系。子类继承于父类，可以理解成子类是父类的扩展。
 
 例：
-- 学生：大学生、中学生、小学生……
+
+* 学生：大学生、中学生、小学生……
 
 注意点：
-- 子类会继承父类的所有成员属性及方法（除了构造方法）
-- 继承来的成员属性或方法不一定能访问（详情查询：访问修饰符）
+
+* 子类会继承父类的所有成员属性及方法（除了构造方法）
+* 继承来的成员属性或方法不一定能访问（详情查询：访问修饰符）
 
 ## 继承的格式
 
@@ -70,9 +72,9 @@ Java中继承的关键字：**extends**
 
 ```java
 public class 类名（子类） extends 类名（父类）{
-	/**
-	*
-	*/
+    /**
+    *
+    */
 }
 ```
 
@@ -82,16 +84,16 @@ public class 类名（子类） extends 类名（父类）{
 
 ```java
 public class Base{
-	public void play(){/*……*/]
+    public void play(){/*……*/]
 }
 //另一个文件
 public class Son extends Base{
-	public void play(){/*……*/}
+    public void play(){/*……*/}
 }
 //另一个文件
 public static void main(String[] args) {
-	Son son = new Son();
-	son.play();
+    Son son = new Son();
+    son.play();
 }
 ```
 
@@ -101,11 +103,13 @@ A：Son类的
 
 Q：那还能用Base类的play方法吗？
 A：可以，但需要使用**super**关键字，如下
+
 ```java
 public class Son extends Base{
-	public void play(){super.play();/*……*/}//通过super关键字调用父类的play方法
+    public void play(){super.play();/*……*/}//通过super关键字调用父类的play方法
 }
 ```
+
 Q：那么我能在调用的时候选择我想调用的方法吗？
 A：No！
 
@@ -117,15 +121,17 @@ Java并没有提供像C++中域运算符（::）这样的运算符、关键字�
 ### 重写的要求
 
 因为这个“意外”实在太普遍了，在继承时经常会碰到，而且它本身的确有诸多妙用，所以Java对其做了一定的规范：
-- 重写依托于继承，没有继承就不会有重写（那叫重载，而且没有条件重写那么严格）
-- 发生重写的子类方法的访问修饰符的访问范围必须**大于或者等于**父类的访问修饰符
-- 发生重写的子类方法的返回值数据类型、方法名、参数都必须要和父类的**完全**一致
-- 子类和父类方法的具体实现要不同
+
+* 重写依托于继承，没有继承就不会有重写（那叫重载，而且没有条件重写那么严格）
+* 发生重写的子类方法的访问修饰符的访问范围必须**大于或者等于**父类的访问修饰符
+* 发生重写的子类方法的返回值数据类型、方法名、参数都必须要和父类的**完全**一致
+* 子类和父类方法的具体实现要不同
 
 不是所有的方法都能重写：
-- 构造方法不能重写（它甚至都没有继承过来）
-- final修饰的方法不能重写，写了会报错
-- 不能调用的方法不能重写，写了不会报错，因为你定义了一个新方法
+
+* 构造方法不能重写（它甚至都没有继承过来）
+* final修饰的方法不能重写，写了会报错
+* 不能调用的方法不能重写，写了不会报错，因为你定义了一个新方法
 
 如何调用父类的方法：
 如上文，通过**super**关键字，而且子类的方法必须调用。就像吃蛋筒，子类的方法是蛋卷，不能不要，而父类的方法则是冰激凌，可以不要。
@@ -142,16 +148,19 @@ Base base = new Son();
 如果你要问为什么能转型，很简单，父类的东西子类都有，我显然可以从子类中“切”出一个父类，转型也不是什么难事。但是在简单的事情放到程序中都不会那么简单，它具体又是按照什么原理来实现的呢？
 
 Java的编译和运行之间存在着差异：
-- 编译的时候，编译器找到了Base这个模子，于是照着Base这个模子在右边的Son类中切，切出了一个外表长得跟Base一模一样的东西，于是它很满意，编译就通过了。
-- 运行的时候呢，系统把切出来的base这个东西拿来一用，发现不对劲，它似乎不是Base类的对象！调用play方法的时候调用的是Son类中的play方法！
+
+* 编译的时候，编译器找到了Base这个模子，于是照着Base这个模子在右边的Son类中切，切出了一个外表长得跟Base一模一样的东西，于是它很满意，编译就通过了。
+* 运行的时候呢，系统把切出来的base这个东西拿来一用，发现不对劲，它似乎不是Base类的对象！调用play方法的时候调用的是Son类中的play方法！
 
 那么问题来了，谁的锅？其实谁都没错，“错”在规则，它们只是各司其职。
 
 Java允许编译器自行从Son类中切出一个Base类，但这个规则本身存在一些小问题：
-- base无法调用Son类中特有的属性和方法（上面的例子应该很详细生动了）
-- 父类中有而子类中没有（只是单纯的继承）的属性或方法，base中的属性或方法依然是父类中的
+
+* base无法调用Son类中特有的属性和方法（上面的例子应该很详细生动了）
+* 父类中有而子类中没有（只是单纯的继承）的属性或方法，base中的属性或方法依然是父类中的
 
 如何理解上面这两个问题？这里给出一个简单的比喻：
+
 1. 你开了一家蛋糕店，你想要设计一款新的蛋糕，但你不想凭空设计一款，那太累了，于是你选择了一款蛋糕（Base），并把它改造成了（Son）。
 2. 你简单的在它的表面抹了一些酱（Son类特有的属性和方法），然后你把原先的一种水果换成了另一种水果（方法的重写），假设替换的水果大小一样。
 3. 现在有一位奇怪的客人，一定要吃原来形状的那种蛋糕，把买来的新款蛋糕切成了跟原来大小一样的蛋糕，于是表面的酱被抹去了，但是水果因为大小一样，没有被切掉，而是留了下来
@@ -161,25 +170,26 @@ Java允许编译器自行从Son类中切出一个Base类，但这个规则本身
 ## 问题的解决
 
 看完上面的东西，那么最早的那个问题就有了一个更好的解决方案：
-- 虽然每种树都有各自的特征，但是有两点每种树肯定都有，那就是种类和生命值，所以可以这么写
+
+* 虽然每种树都有各自的特征，但是有两点每种树肯定都有，那就是种类和生命值，所以可以这么写
 
 ```java
 //树木
 public class Tree{
-	public String typeName;
-	public int health;
+    public String typeName;
+    public int health;
 }
 //另一个文件
 public class TreeA extends Tree{
-	/**
-	*各种属性值
-	*/
+    /**
+    *各种属性值
+    */
 }
 //另一个文件
 public class TreeB extends Tree{
-	/**
-	*各种属性值
-	*/
+    /**
+    *各种属性值
+    */
 }
 /**
 *更多的树
@@ -187,12 +197,12 @@ public class TreeB extends Tree{
 //另一个文件
 //伐木工
 public class Cutter{
-	public String name;
-	public int speed;
-	//砍树
-	public void cut(Tree tree){
-		tree.health -= speed;
-	}
+    public String name;
+    public int speed;
+    //砍树
+    public void cut(Tree tree){
+        tree.health -= speed;
+    }
 }
 ```
 

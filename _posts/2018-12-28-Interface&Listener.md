@@ -18,8 +18,8 @@ excerpt: Why not have a try?
 
 ## 与Java接口相关的关键字
 
-- 定义接口的关键字：**interface**
-- 继承接口的关键字：**implements**
+* 定义接口的关键字：**interface**
+* 继承接口的关键字：**implements**
 
 ```java
 public interface X { /***/ }
@@ -30,8 +30,8 @@ public class A implements X { /***/ }
 
 ```java
 public interface jiekou {
-	public static final i = 0;
-	public abstract void play();
+    public static final i = 0;
+    public abstract void play();
 //博主用的1.8的jdk发现还可以定义public/default修饰的静态方法，其他版本的没试过，各位可以去尝试一下
 //	public static void print() {System.out.println(i);}
 }
@@ -43,20 +43,20 @@ public interface jiekou {
 
 ```java
 public interface A{
-	public static final int a = 0;
-	public abstract void play();
+    public static final int a = 0;
+    public abstract void play();
 }
 public interface B{
-	public static final int b = 0;
-	public abstract void print();
+    public static final int b = 0;
+    public abstract void print();
 }
 public class test implements A,B/*...*/{
-	public abstract void play(){
-		System.out.println(a);
-	}
-	public abstract void print(){
-		System.out.println(b);
-	}
+    public abstract void play(){
+        System.out.println(a);
+    }
+    public abstract void print(){
+        System.out.println(b);
+    }
 }
 ```
 接口可以理解为一种极度抽象的抽象类，所以一个类如果**不是抽象类**，那么它必须实现所有的抽象方法。
@@ -67,18 +67,18 @@ A:是可以的，但是只能继承接口，而且可以继承多个接口，关
 
 ```java
 public interface A{
-	public abstract playA();
+    public abstract playA();
 }
 public interface B{
-	public abstract playB();
+    public abstract playB();
 }
 public interface X extends A, B{
-	public abstract playX();
+    public abstract playX();
 }
 public class test implements X{
-	public abstract playA(){}
-	public abstract playB(){}
-	public abstract playX(){}
+    public abstract playA(){}
+    public abstract playB(){}
+    public abstract playX(){}
 }
 ```
 
@@ -87,9 +87,9 @@ public class test implements X{
 ## 关于监听的几个概念
 
 监听最主要的一个部分就是接口，看完上面关于接口的内容，我们再来看监听的几个概念。
-- 事件源对象
-- 对象的事件监听方法
-- 事件的处理方法
+* 事件源对象
+* 对象的事件监听方法
+* 事件的处理方法
 
 这部分更多地是抽象概念，虽然不难理解，但用一个例子会更清晰一点：
 
@@ -121,21 +121,21 @@ button.addActionListener(ActionListener类对象);
 
 ```java
 public class Listener implements ActionListener{
-	public void actionPerformed(ActionEvent e) {
-		/*实现弹出一个窗口*/
-	}
+    public void actionPerformed(ActionEvent e) {
+        /*实现弹出一个窗口*/
+    }
 }
 public class Test{
-	public static void main(String[] args){
-		JFrame frame = new JFrame();
-		/*frame属性设置*/
-		Listener listener = new Listener();
-		JButton button;
-		/*button属性设置*/
-		button.addActionListener(listener);
-		frame.add(button);
-		frame.setVisible(true);
-	}
+    public static void main(String[] args){
+        JFrame frame = new JFrame();
+        /*frame属性设置*/
+        Listener listener = new Listener();
+        JButton button;
+        /*button属性设置*/
+        button.addActionListener(listener);
+        frame.add(button);
+        frame.setVisible(true);
+    }
 }
 ```
 

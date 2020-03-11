@@ -14,29 +14,33 @@ excerpt: Why not have a try?
 
 ## 术语
 
-- 标签
-    - 我们要预测的真实事物：\\( y \\)
-    - 基本线性回归中的\\( y \\)变量
-- 特征
-    - 用于描述数据的输入变量：\\( x \\)
-    - 基本线性回归中的\\( x \\)变量
-- 样本
-    - 数据的特定实例：\\( x \\)
-    - 有标签的样本 {特征，标签}：\\( (x, y) \\)
-        - 用于训练模型
-    - 无标签的样本 {特征，？}：\\( (x, ?) \\)
-        - 用于对新数据做出预测
-- 模型
-    - 将样本映射到预测标签：\\( y' \\)
-        - \\( y' \\)由模型的内部参数定义，这些内部参数值通过学习得到
+* 标签
+  * 我们要预测的真实事物：\\( y \\)
+  * 基本线性回归中的\\( y \\)变量
+  
+* 特征
+  * 用于描述数据的输入变量：\\( x \\)
+  * 基本线性回归中的\\( x \\)变量
+
+* 样本
+  * 数据的特定实例：\\( x \\)
+  * 有标签的样本 {特征，标签}：\\( (x, y) \\)
+    * 用于训练模型
+  * 无标签的样本 {特征，？}：\\( (x, ?) \\)
+    * 用于对新数据做出预测
+
+* 模型
+  * 将样本映射到预测标签：\\( y' \\)
+    * \\( y' \\)由模型的内部参数定义，这些内部参数值通过学习得到
 
 ## 线性回归
 
 单个特征的线性关系：\\( y' = b + w_1x_1 \\)
-- \\( y' \\)：我们试图预测的值
-- \\( w_1 \\)：特征1的权重
-- \\( x_1 \\)：特征1的值
-- \\( b \\)：偏差
+
+* \\( y' \\)：我们试图预测的值
+* \\( w_1 \\)：特征1的权重
+* \\( x_1 \\)：特征1的值
+* \\( b \\)：偏差
 
 多个特征：\\( y' = b + w_1x_1 + w_2x_2 + w_3x_3 + ... \\)
 
@@ -46,26 +50,28 @@ excerpt: Why not have a try?
 
 ![][pic-1]
 
-- 红色箭头表示损失
-- 蓝线表示预测
+* 红色箭头表示损失
+* 蓝线表示预测
 
 显然，左侧的模型损失更大。当然仅仅这样是不够的，我们需要一个量化的标准：**平方损失**
 
 平方损失是一种常见的损失函数，单个样本的平方损失可以描述为：
-- 预测值和标签值之差的平方
-- \\( (y - y')^2 \\)
+
+* 预测值和标签值之差的平方
+* \\( (y - y')^2 \\)
 
 **均方误差（MSE）**：每个样本的平均平方损失
 
 \\[ MSE = \frac{1}{N} \sum_{(x,y)\in D} (y - prediction(x))^2 \\]
 
 其中：
-- \\( (x, y) \\)指的是样本
-  - \\( x \\)指的是模型进行预测时使用的特征集
-  - \\( y \\)指的是样本的标签
-- \\( prediction(x) \\)指的是权重和偏差与特征集\\( x \\)结合的函数（计算出\\( y' \\)）
-- \\( D \\)指的是包含多个有标签样本（即\\( (x, y) \\)）的数据集
-- \\( N \\)指的是\\( D \\)中样本的数量
+
+* \\( (x, y) \\)指的是样本
+  * \\( x \\)指的是模型进行预测时使用的特征集
+  * \\( y \\)指的是样本的标签
+* \\( prediction(x) \\)指的是权重和偏差与特征集\\( x \\)结合的函数（计算出\\( y' \\)）
+* \\( D \\)指的是包含多个有标签样本（即\\( (x, y) \\)）的数据集
+* \\( N \\)指的是\\( D \\)中样本的数量
 
 虽然 MSE 常用于机器学习，但它既不是唯一实用的损失函数，也不是适用于所有情形的最佳损失函数。
 
@@ -73,14 +79,12 @@ excerpt: Why not have a try?
 
 ## Links
 
-- 下期预告：降低损失
-    - 因为博主太菜了，现在去打基础去了，要拖更好久了。。。
-- [Anaconda安装教程](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)
-    - [https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)
-- [Python环境装配教程](https://wilfredshen.cn/blog/2019/08/26/Python-env/)（先安装[Anaconda](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)）
-    - [https://wilfredshen.cn/blog/2019/08/26/Python-env/](https://wilfredshen.cn/blog/2019/08/26/Python-env/)
-- [Google官方教程链接](https://developers.google.cn/machine-learning/crash-course/ml-intro)
-    - [https://developers.google.cn/machine-learning/crash-course/ml-intro](https://developers.google.cn/machine-learning/crash-course/ml-intro)
+* [Anaconda安装教程](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)
+  * [https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)
+* [Python环境装配教程](https://wilfredshen.cn/blog/2019/08/26/Python-env/)（先安装[Anaconda](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)）
+  * [https://wilfredshen.cn/blog/2019/08/26/Python-env/](https://wilfredshen.cn/blog/2019/08/26/Python-env/)
+* [Google官方教程链接](https://developers.google.cn/machine-learning/crash-course/ml-intro)
+  * [https://developers.google.cn/machine-learning/crash-course/ml-intro](https://developers.google.cn/machine-learning/crash-course/ml-intro)
 
 ### 往期回顾
 
