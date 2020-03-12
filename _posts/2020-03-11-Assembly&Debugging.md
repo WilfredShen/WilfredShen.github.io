@@ -14,4 +14,4 @@ excerpt: Why not have a try?
 
 ![][01-思维导图]
 
-[01-思维导图]: {{ '/Assembly&Debugging/01-汇编与调试.png' | prepend: site.imgrepo }}
+[01-思维导图]: {{ '/Assembly and Debugging/01-汇编与调试.png' | prepend: site.imgrepo }}
