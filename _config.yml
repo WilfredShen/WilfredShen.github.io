@@ -10,13 +10,10 @@ imgrepo: 'https://WilfredShen.cn/static/images'
 
 author:
   name: 'Wilfred Shen'
-  email: WilfredShen@tom.com
+  email: wilfredshen@foxmail.com
   qq:  '215510355'
   wechat:  WilfredShen-
-  # twitter_username: WilfredShen
-  # facebook_username: WilfredShen
   github_username:  WilfredShen
-  # linkedin_username:  WilfredShen
 
 defaults:
   -
@@ -30,7 +27,7 @@ defaults:
 destination: _site
 paginate: 10
 paginate_path: "/blog/page:num"
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:year-:month-:day/:title/
 markdown: kramdown
 highlighter: rouge
 
