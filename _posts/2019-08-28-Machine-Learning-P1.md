@@ -79,10 +79,10 @@ excerpt: Why not have a try?
 
 ## Links
 
-* [Anaconda安装教程](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)
-  * [https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)
-* [Python环境装配教程](https://wilfredshen.cn/blog/2019/08/26/Python-env/)（先安装[Anaconda](https://wilfredshen.cn/blog/2019/08/26/Install-Anaconda/)）
-  * [https://wilfredshen.cn/blog/2019/08/26/Python-env/](https://wilfredshen.cn/blog/2019/08/26/Python-env/)
+* [Anaconda安装教程](https://wilfredshen.cn/blog/2019-08-26/Install-Anaconda/)
+  * [https://wilfredshen.cn/blog/2019-08-26/Install-Anaconda/](https://wilfredshen.cn/blog/2019-08-26/Install-Anaconda/)
+* [Python环境装配教程](https://wilfredshen.cn/blog/2019-08-26/Python-env/)（先安装[Anaconda](https://wilfredshen.cn/blog/2019-08-26/Install-Anaconda/)）
+  * [https://wilfredshen.cn/blog/2019-08-26/Python-env/](https://wilfredshen.cn/blog/2019-08-26/Python-env/)
 * [Google官方教程链接](https://developers.google.cn/machine-learning/crash-course/ml-intro)
   * [https://developers.google.cn/machine-learning/crash-course/ml-intro](https://developers.google.cn/machine-learning/crash-course/ml-intro)
 

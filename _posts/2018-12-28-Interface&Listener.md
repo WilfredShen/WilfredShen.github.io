@@ -33,7 +33,7 @@ public interface jiekou {
     public static final i = 0;
     public abstract void play();
 //博主用的1.8的jdk发现还可以定义public/default修饰的静态方法，其他版本的没试过，各位可以去尝试一下
-//	public static void print() {System.out.println(i);}
+//public static void print() {System.out.println(i);}
 }
 ```
 
@@ -59,6 +59,7 @@ public class test implements A,B/*...*/{
     }
 }
 ```
+
 接口可以理解为一种极度抽象的抽象类，所以一个类如果**不是抽象类**，那么它必须实现所有的抽象方法。
 
 Q:那么接口可以继承其他类吗？
@@ -87,6 +88,7 @@ public class test implements X{
 ## 关于监听的几个概念
 
 监听最主要的一个部分就是接口，看完上面关于接口的内容，我们再来看监听的几个概念。
+
 * 事件源对象
 * 对象的事件监听方法
 * 事件的处理方法
