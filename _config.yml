@@ -11,9 +11,9 @@ imgrepo: 'https://WilfredShen.cn/static/images'
 author:
   name: 'Wilfred Shen'
   email: wilfredshen@foxmail.com
-  qq:  '215510355'
-  wechat:  WilfredShen-
-  github_username:  WilfredShen
+  qq: '215510355'
+  wechat: WilfredShen-
+  github_username: WilfredShen
 
 defaults:
   -
