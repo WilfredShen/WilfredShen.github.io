@@ -74,4 +74,4 @@ excerpt: Why not have a try?
 
 ![][01-访问URL]
 
-[01-访问URL]: {{ '/A URL Taveled On The Web/01-访问URL.png' | prepend: site.imgrepo }}
+[01-访问URL]: {{ '/A URL Taveled On The Web/01-访问 URL.png' | prepend: site.imgrepo }}
