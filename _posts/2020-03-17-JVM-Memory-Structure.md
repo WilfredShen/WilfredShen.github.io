@@ -79,4 +79,4 @@ Java 方法在执行时会在 JVM Stack 中入栈一个 Stack Frame (栈帧)，�
 
 ![][01-JVM内存结构]
 
-[01-JVM内存结构]: {{ '/JVM Memory Structure/01-JVM内存结构.png' | prepend: site.imgrepo }}
+[01-JVM内存结构]: {{ '/JVM Memory Structure/01-JVM 内存结构.png' | prepend: site.imgrepo }}
