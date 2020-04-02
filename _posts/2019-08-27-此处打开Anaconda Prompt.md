@@ -34,9 +34,3 @@ excerpt: Why not have a try?
 
 [pic-1]: {{ '/Anaconda Prompt Here/pic-1.png' | prepend: site.imgrepo }}
 [pic-2]: {{ '/Anaconda Prompt Here/pic-2.png' | prepend: site.imgrepo }}
-
-## 额外内容
-
-下面这篇博客介绍了通过注册表来给右键菜单添加“用管理员权限在此处打开cmd”的方法
-
-[博客链接：https://wilfredshen.cn/blog/2019-08-26/Admin-Command-Here/](https://wilfredshen.cn/blog/2019-08-26/Admin-Command-Here/)
