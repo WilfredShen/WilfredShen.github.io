@@ -120,7 +120,7 @@ int bitCount(int x)
 - 首先将 32 位分为 16 组，每组为连续 2 位，令每组前后 1 位相加，得到的值存储在该 2 位中
 - 再将 32 位分为 8 组，每组为连续 4 位，将 4 位的前后 2 位相加，得到的值存储在该 4 位中
 - 依次类推，最终得到 32 位相加的值
-- `n` 位长度的数只需要相加$ \lceil \log_{2}{n} \rceil $次即可
+- `n` 位长度的数只需要相加 $ \lceil \log_{2}{n} \rceil $ 次即可
 
 参考自：[https://www.cnblogs.com/graphics/archive/2010/06/21/1752421.html](https://www.cnblogs.com/graphics/archive/2010/06/21/1752421.html)
 
