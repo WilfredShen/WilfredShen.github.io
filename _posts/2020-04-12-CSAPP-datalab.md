@@ -9,7 +9,7 @@ excerpt: Why not have a try?
 
 * TOC
 {:toc}
-- 实验环境：Windows10系统下VMware虚拟机 Ubuntu12.04桌面版 32位
+- 实验环境：Windows10 系统下 VMware 虚拟机 Ubuntu12.04 桌面版 32 位
 - 原址链接：[http://csapp.cs.cmu.edu/3e/labs.html](http://csapp.cs.cmu.edu/3e/labs.html)
 
 本实验除个别题目借鉴了其他博客，其余题目均为博主自己的解法，不保证最优，同时转载请注明出处。
