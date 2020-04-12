@@ -16,7 +16,7 @@ excerpt: Why not have a try?
 
 ## 1. bitAnd
 
-```C
+```c
 /* 
  * bitAnd - x&y using only ~ and | 
  *   Example: bitAnd(6, 5) = 4
@@ -36,7 +36,7 @@ int bitAnd(int x, int y)
 
 ## 2. getByte
 
-```C
+```c
 /* 
  * getByte - Extract byte n from word x
  *   Bytes numbered from 0 (LSB) to 3 (MSB)
@@ -57,7 +57,7 @@ int getByte(int x, int n)
 
 ## 3. logicalShift
 
-```C
+```c
 /* 
  * logicalShift - shift x to the right by n, using a logical shift
  *   Can assume that 0 <= n <= 31
@@ -78,7 +78,7 @@ int logicalShift(int x, int n)
 
 由于该题限制，只能使用 `0x00 - 0xff` 范围内的值，所以采用了上述方法，如果不对字面值常量做限制，则使用如下代码即可求解：
 
-```C
+```c
 return (x & 0xffffffff) >> n;
 // 不能使用 (x | 0) >> n 或者 (x ^ 0) >> n 等
 ```
@@ -87,7 +87,7 @@ return (x & 0xffffffff) >> n;
 
 ## 4. bitCount
 
-```C
+```c
 /*
  * bitCount - returns count of number of 1's in word
  *   Examples: bitCount(5) = 2, bitCount(7) = 3
@@ -126,7 +126,7 @@ int bitCount(int x)
 
 ## 5. bang
 
-```C
+```c
 /* 
  * bang - Compute !x without using !
  *   Examples: bang(3) = 0, bang(0) = 1
@@ -146,7 +146,7 @@ int bang(int x)
 
 ## 6. tmin
 
-```C
+```c
 /* 
  * tmin - return minimum two's complement integer 
  *   Legal ops: ! ~ & ^ | + << >>
@@ -165,7 +165,7 @@ int tmin(void)
 
 ## 7. fitsBits
 
-```C
+```c
 /* 
  * fitsBits - return 1 if x can be represented as an 
  *  n-bit, two's complement integer.
@@ -188,7 +188,7 @@ int fitsBits(int x, int n)
 
 ## 8. divpwr2
 
-```C
+```c
 /* 
  * divpwr2 - Compute x/(2^n), for 0 <= n <= 30
  *  Round toward zero
@@ -214,7 +214,7 @@ int divpwr2(int x, int n)
 
 ## 9. negate
 
-```C
+```c
 /* 
  * negate - return -x 
  *   Example: negate(1) = -1.
@@ -234,7 +234,7 @@ int negate(int x)
 
 ## 10. isPositive
 
-```C
+```c
 /* 
  * isPositive - return 1 if x > 0, return 0 otherwise 
  *   Example: isPositive(-1) = 0.
@@ -254,7 +254,7 @@ int isPositive(int x)
 
 ## 11. isLessOrEqual
 
-```C
+```c
 /* 
  * isLessOrEqual - if x <= y  then return 1, else return 0 
  *   Example: isLessOrEqual(4,5) = 1.
@@ -279,7 +279,7 @@ int isLessOrEqual(int x, int y)
 
 ## 12. ilog2
 
-```C
+```c
 /*
  * ilog2 - return floor(log base 2 of x), where x > 0
  *   Example: ilog2(16) = 4
@@ -304,7 +304,7 @@ int ilog2(int x)
 
 ## 13. float_neg
 
-```C
+```c
 /* 
  * float_neg - Return bit-level equivalent of expression -f for
  *   floating point argument f.
@@ -333,7 +333,7 @@ unsigned float_neg(unsigned uf)
 
 ## 14. float_i2f
 
-```C
+```c
 /* 
  * float_i2f - Return bit-level equivalent of expression (float) x
  *   Result is returned as unsigned int, but
@@ -379,7 +379,7 @@ unsigned float_i2f(int x)
 
 ## 15. float_twice
 
-```C
+```c
 /* 
  * float_twice - Return bit-level equivalent of expression 2*f for
  *   floating point argument f.
